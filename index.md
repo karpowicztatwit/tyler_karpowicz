@@ -98,9 +98,9 @@ end
 
 ### Feedback Forward - A Social Media Platform for Aspiring Individuals
 
-[Feedback Forward's GitHub Repository](https://github.com/sebastianrosario/FeedbackForward).
-
 **Project Contributors:** Tyler Karpowicz, Sebastian Rosario, Lawrence Scola, Mario Gergis
+
+[Feedback Forward's GitHub Repository](https://github.com/sebastianrosario/FeedbackForward).
 
 ![Branching](Feedback-Foward-Poster-2ft-x-3ft.jpg)
 
