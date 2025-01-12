@@ -96,10 +96,15 @@ end
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
-### Large image
+### Feedback Forward - A Social Media Platform for Aspiring Individuals
+
+[Feedback Forward's GitHub Repository](https://github.com/sebastianrosario/FeedbackForward).
+
+**Project Contributors:** Tyler Karpowicz, Sebastian Rosario, Lawrence Scola, Mario Gergis
 
 ![Branching](Feedback-Foward-Poster-2ft-x-3ft.jpg)
 
+Worked alongside three fellow students to create a website locally hosted on a webserver. This website allows people to provide feedback and constructive criticism on various topics, areas of interest, hobbies, and fields of study. Feedback Forward aims to connect beginners, professionals, and businesses with useful feedback for improvement. Feedback Forward allows users of all different skill levels to connect with one-another, get help with, and improve-upon projects and general skills in their area of interest. Examples include: Coding, Music Production, Game Design, Art, and more!
 
 ### Definition lists can be used with HTML syntax.
 
