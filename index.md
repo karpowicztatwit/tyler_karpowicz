@@ -64,7 +64,7 @@ end
 
 | File Name        | Script Overview          | Source Code |
 |:-------------|:------------------|:------|
-| HourlyFolderBackup.ps1 | Hourly Folder Backup (Formatted Subpage) | [HourlyFolderBackup.ps1](Cybersecurity_Projects/Personal PowerShell Scripts/HourlyFolderBackup.ps1) |
+| HourlyFolderBackup.ps1 | Hourly Folder Backup (Formatted Subpage) | [HourlyFolderBackup.ps1](./Cybersecurity_Projects/Personal PowerShell Scripts/HourlyFolderBackup.ps1) |
 | out of stock | good and plenty   | nice  |
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
