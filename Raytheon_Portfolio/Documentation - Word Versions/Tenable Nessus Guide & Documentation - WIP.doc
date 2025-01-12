@@ -1,0 +1,1577 @@
+Date: Tue, 7 May 2024 16:34:46 -0400 (EDT)
+Message-ID: <1511956963.954.1715114086153@c-prod-wiki01.mgmt.bbn.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_953_462308212.1715114086152"
+
+------=_Part_953_462308212.1715114086152
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Tenable Nessus Guide &amp; Documentation</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Tenable Nessus Guide &amp; Documentation</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"TenableNessusGuide&amp;Documentation------------------Wor=
+kInProgress-----------------"><span style=3D"color: rgb(255,0,0);"><strong>=
+-----------------Work In Progress</strong><strong>-----------------</strong=
+></span></h1>
+<h2 id=3D"TenableNessusGuide&amp;Documentation-HowtoGetTenableNessus"><span=
+ style=3D"color: rgb(0,0,0);"><strong>How to Get Tenable Nessus</strong></s=
+pan></h2>
+<ul>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">All of =
+the Tenable Nessus 10.4.2 Files can be found in the <strong>Shared Drive:</=
+strong>&nbsp;</span><strong><span style=3D"color: rgb(255,0,0);">[REDACTED =
+For Security Purposes]</span></strong></li>
+<li style=3D"color: rgb(0,0,0);">
+<ul>
+<li style=3D"color: rgb(0,0,0);"><span class=3D"ui-provider wj b c d e f g =
+h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak" style=3D"=
+color: rgb(0,0,0);">The Installation File is called: <strong>Nessus-10.4.2-=
+x64</strong></span>
+<ul>
+<li style=3D"color: rgb(0,0,0);"><span class=3D"ui-provider wj b c d e f g =
+h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak" style=3D"=
+color: rgb(0,0,0);">This can be found in <strong><span style=3D"color: rgb(=
+255,0,0);">[REDACTED For Security Purposes]</span></strong></span></li>
+</ul></li>
+</ul></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">If you =
+have access to the <strong><span style=3D"color: rgb(255,0,0);">[REDACTED F=
+or Security Purposes] </span></strong>Network, you could also get the Files=
+ from the <strong><span style=3D"color: rgb(255,0,0);">[REDACTED For Securi=
+ty Purposes]</span></strong></span></li>
+</ul>
+<h2 id=3D"TenableNessusGuide&amp;Documentation-InstallingTenableNessus(Stan=
+daloneWindowsWorkstation)"><span style=3D"color: rgb(0,0,0);"><strong>Insta=
+lling Tenable Nessus&nbsp;</strong><strong>(Standalone Windows Workstation)=
+</strong></span></h2>
+<ol>
+<li><span style=3D"color: rgb(0,0,0);">Copy the "Nessus 10.4.2" Folder onto=
+ your Target Device, in the Directory of your choice.</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Run the <span class=3D"ui-provider w=
+j b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj=
+ ak"><strong>Nessus-10.4.2-x64 </strong>Installation File</span></span>
+<ol>
+<li><span class=3D"ui-provider wj b c d e f g h i j k l m n o p q r s t u v=
+ w x y z ab ac ae af ag ah ai aj ak" style=3D"color: rgb(0,0,0);">This can =
+be found in <strong>~\Nessus 10.4.2\10.4.2</strong></span></li>
+</ol></li>
+<li><span style=3D"color: rgb(0,0,0);">Install Shield Wizard</span>
+<ol>
+<li><span style=3D"color: rgb(0,0,0);">This will ask you to accept the Term=
+s and Conditions, and to choose an Installation Path for Tenable Nessus</sp=
+an></li>
+<li><span style=3D"color: rgb(0,0,0);">For the Installation Path "<strong>C=
+:\Program Files\Tenable</strong>" works perfectly fine here.</span></li>
+</ol></li>
+<li><span style=3D"color: rgb(0,0,0);">After the Installation has completed=
+, Nessus should be launched on it's own (most likely in the Microsoft Edge =
+Web Browser), and you should see a screen with "<strong>nessus</strong>" in=
+ the middle, and a button that says "<strong>Connect via SSL</strong>". If =
+this is the case, you can Skip to Step 6.</span>
+<ol>
+<li><span style=3D"color: rgb(0,0,0);">Nessus Webpage URL: "<strong>http://=
+localhost:8834/WelcomeToNessus-Install/welcome</strong>"<strong> </strong>o=
+r "<strong>https://localhost:8834</strong>"</span></li>
+</ol></li>
+<li><span style=3D"color: rgb(0,0,0);">If Nessus did not load automatically=
+, you should have gotten a Web Browser Message that stays, "<strong>Your co=
+nnection isn't private</strong>". To bypass this, you would Click the "<str=
+ong>Advanced</strong>" Button, and then Click </span>"<span style=3D"color:=
+ rgb(51,102,255);"><u><strong>Continue to localhost (unsafe)</strong></u></=
+span>".=20
+<ol>
+<li><span style=3D"color: rgb(0,0,0);">If the "<strong>Proceed to Webpage</=
+strong>" Option is missing, Click on the Windows Search Bar, and Type in "<=
+strong>Edit group policy</strong>", and then press "<strong>Enter</strong>"=
+.</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Once you are in the "<strong>Local G=
+roup Policy Editor</strong>" on the Left-Hand Side, Under "<strong>Computer=
+ Configuration</strong>", Double Click on "<strong>Administrative Templates=
+</strong>", then Double Click on "<strong>Microsoft Edge</strong>". On the =
+Right-Hand Side, Find the Setting called "<strong>Allow users to proceed fr=
+om the HTTPS warning page</strong>" and Double Click on it.</span>
+<ol>
+<li><span style=3D"color: rgb(0,0,0);">Group Policy: "<strong>Computer Conf=
+iguration</strong>"<strong>-&gt;</strong>"<strong>Administrative Templates<=
+/strong>"<strong>-&gt;</strong>"<strong>Microsoft Edge</strong>"<strong>-&g=
+t;</strong>"<strong>Allow users to proceed from the HTTPS warning page</str=
+ong>"<strong>-&gt;</strong>"<strong>Enabled</strong>"</span></li>
+</ol></li>
+<li><span style=3D"color: rgb(0,0,0);">At the Top Left of the "<strong>Allo=
+w users to proceed from the HTTPS warning page</strong>" Window, Select "<s=
+trong>Enabled</strong>", and then Click "<strong>Apply</strong>", and then =
+Click "<strong>OK</strong>".</span></li>
+<li><span style=3D"color: rgb(0,0,0);">To Actually Apply this, you can Open=
+ PowerShell as <u>Administrator</u>, Enter the Command "<strong>gpupdate</s=
+trong>" and press "<strong>Enter</strong>".</span>
+<ol>
+<li><span style=3D"color: rgb(0,0,0);">If it worked correctly, you should s=
+ee an output that says "<strong>Computer Policy update has completed succes=
+sfully</strong>". As long as that part is correct, you don't have to worry =
+about it saying "User Policy Update Failed".</span></li>
+<li><span style=3D"color: rgb(0,0,0);">This should force your Group Policy =
+Changes to Update, and allow you to Proceed to the Webpage.</span></li>
+</ol></li>
+<li><span style=3D"color: rgb(0,0,0);">Now, close out of all instances of M=
+icrosoft Edge, and in the Windows Search Box Type in "<strong>Nessus Web Cl=
+ient</strong>", and hit the Down Arrow Key to Select the Option under "<str=
+ong>Websites</strong>", and then press "<strong>Enter</strong>".</span></li=
+>
+<li><span style=3D"color: rgb(0,0,0);">This should bring you back to the "<=
+strong><span class=3D"nolink">https://localhost:8834</span></strong><span c=
+lass=3D"nolink">" Webpage, it should say </span>"<strong>Your connection is=
+n't private</strong>" again. <span class=3D"nolink">Click&nbsp;</span>the "=
+<strong>Advanced</strong>" Button, and then Click </span>"<span style=3D"co=
+lor: rgb(51,102,255);"><u><strong>Continue to localhost (unsafe)</strong></=
+u></span>".<br>
+<ol>
+<li><span style=3D"color: rgb(0,0,0);">If this didn't work, you can also Re=
+start your Machine, to force the Group Policy Changes to Update as well, an=
+d then Repeat <strong>Step 5e</strong> and <strong>Step 5f</strong> again.<=
+/span></li>
+</ol></li>
+<li><span style=3D"color: rgb(0,0,0);">After you get to the page that says =
+"<strong>Welcome to Nessus</strong>", Open the Group Policy Editor and go t=
+o:&nbsp;"<strong>Computer Configuration</strong>"<strong>-&gt;</strong>"<st=
+rong>Administrative Templates</strong>"<strong>-&gt;</strong>"<strong>Micro=
+soft Edge</strong>"<strong>-&gt;</strong>"<strong>Allow users to proceed fr=
+om the HTTPS warning page</strong>"<strong>-&gt;</strong>"<strong>Disabled<=
+/strong>". Make sure that this Group Policy Value is switched back to "<str=
+ong>Disabled</strong>", Click "<strong>Apply</strong>", and Click "<strong>=
+OK</strong>".</span>
+<ol>
+<li><span style=3D"color: rgb(0,0,0);">You can run "<strong>gpupdate</stron=
+g>" in PowerShell as <u>Administrator</u> once more, but as long as the Com=
+puter gets Shutdown, it should be all good.&nbsp;</span></li>
+</ol></li>
+</ol></li>
+<li><span style=3D"color: rgb(0,0,0);">You've Successfully Installed Tenabl=
+e Nessus 10.4.2! The Next Section will go over Licensing Tenable Nessus.</s=
+pan></li>
+</ol>
+<h2 id=3D"TenableNessusGuide&amp;Documentation-LicensingTenableNessus(Stand=
+aloneWindowsWorkstation-OfflineActivation)"><span style=3D"color: rgb(0,0,0=
+);"><strong>Licensing Tenable Nessus (Standalone Windows Workstation - Offl=
+ine Activation)</strong></span></h2>
+<p><span style=3D"color: rgb(0,0,0);">This guide assumes that you have alre=
+ady completed the "<strong>Installing Tenable Nessus</strong>" portion of t=
+he guide.</span></p>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">If you =
+have just completed the previous section of the guide, you should see a win=
+dow that says "<strong>Welcome to Nessus</strong>" and "<strong>Choose how =
+you want to deploy Nessus. Select a product to get started</strong>".</span=
+>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">If not,=
+ open Microsoft Edge, and put this in the URL box for Nessus: "<strong><spa=
+n class=3D"nolink"><span class=3D"nolink">https://localhost:8834</span></sp=
+an></strong><span class=3D"nolink">".</span></span></li>
+</ol></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Select =
+"<strong>Nessus Professional</strong>", or which ever version of Nessus you=
+ are using, and then Click "<strong>Continue</strong>".</span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">You sho=
+uld now see a page that asks you to enter an "<strong>Activation Code</stro=
+ng>", and under that, an input field with a Check-Box for "<strong>Register=
+ Offline</strong>", Click this Check-Box. A prompt should now appear for a =
+"<strong>Nessus License Key</strong>".</span></li>
+<li><span style=3D"color: rgb(51,102,255);"><strong>On a Separate Device wi=
+th Internet Access:</strong></span> <span style=3D"color: rgb(0,0,0);">Go t=
+o this Website -</span> <strong><a href=3D"https://plugins.nessus.org/v2/of=
+fline.php" class=3D"external-link" rel=3D"nofollow">https://plugins.nessus.=
+org/v2/offline.php</a></strong>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">It shou=
+ld pop-up a Webpage that says "Generate a license for Nessus 6.3 and Later"=
+.</span></li>
+</ol></li>
+<li><span style=3D"color: rgb(255,102,0);"><strong>On the Standalone Workst=
+ation:</strong></span> <span style=3D"color: rgb(0,0,0);">Open "<strong>Com=
+mand Prompt</strong>" as <u>Administrator</u>.</span>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Use the=
+ "<strong>cd</strong>" Command to parse to where you have installed Nessus =
+on the device.</span>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Ex: "<s=
+trong>cd C:\Program Files\Tenable\Nessus</strong>"</span></li>
+</ol></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Type in=
+ the Command: "<strong>nessuscli fetch --challenge</strong>" and press "<st=
+rong>Enter</strong>".</span>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">This sh=
+ould Output a Challenge Code for Tenable Nessus.</span>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Ex: <st=
+rong>Challenge Code: 1a2b3c4d5e6f7g8h9i</strong></span></li>
+</ol></li>
+</ol></li>
+</ol></li>
+<li><span style=3D"color: rgb(51,102,255);"><strong>On a Separate Device wi=
+th Internet Access:</strong></span> <span style=3D"color: rgb(0,0,0);">Type=
+ in the Challenge Code, from the Command Prompt Output, Underneth where it =
+says "<strong>Run nessuscli fetch --challenge on your nessusd server and co=
+py the result below</strong>"</span>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>Tip:</strong> Double Check the Challange Code you Enter to Make Sure it's =
+Correct!</span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>Optional:</strong> You can also copy the Challenge Code from the Command P=
+rompt, and Paste it into a Text File.</span></li>
+<li style=3D"color: rgb(0,0,0);"><p><span style=3D"color: rgb(0,0,0);">For =
+the Section "<strong>Enter your activation code below</strong>", Enter the =
+"<strong>2022 Nessus Activation Code</strong>" that was given to you with y=
+our Nessus License(s), which associates with the Standalone Machine that is=
+ being Configured.</span></p></li>
+<li style=3D"color: rgb(0,0,0);"><p><span style=3D"color: rgb(0,0,0);">When=
+ Both Feilds are Entered accordingly, Click the Blue "<strong>Submit</stron=
+g>" Button.</span></p>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><p><span style=3D"color: rgb(0,0,0);">If e=
+verything has gone correctly, you should see a Page that says "<strong>Than=
+k you</strong>", with a Link for the latest Nessus Plugins, and the Text as=
+socated with the Tenable License.</span></p></li>
+</ol></li>
+</ol></li>
+<li><span style=3D"color: rgb(51,102,255);"><strong>On a Separate Device wi=
+th Internet Access:</strong></span> <span style=3D"color: rgb(0,0,0);">Clic=
+k the Link on the Top of the Page, this will Download the latest Plugins fo=
+r Nessus. -</span> <strong><a style=3D"letter-spacing: 0.0px;" href=3D"http=
+s://plugins.nessus.org/v2/nessus.php?f=3Dall-2.0.tar.gz&amp;u=3Da408352aaa7=
+d0f2e459547a89e63e5de&amp;p=3Dac2664bcd6c2112380d692ace82e7da3" class=3D"ex=
+ternal-link" rel=3D"nofollow">https://plugins.nessus.org/v2/nessus.php?f=3D=
+all-2.0.tar.gz&amp;u=3Da408352aaa7d0f2e459547a89e63e5de&amp;p=3Dac2664bcd6c=
+2112380d692ace82e7da3</a></strong>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Additio=
+nally, Click the Blue "<strong>Download nessus.license</strong>" Button at =
+the Bottom of the Page. This will Download your Nessus License File.</span>=
+</li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Once th=
+e Plugins and the Nessus Liscense File have downloaded, Copy the "<strong>a=
+ll-2.0.tar</strong>" and "<strong>nessus.license</strong>" Files to an Exte=
+rnal Hard Drive, or USB.</span></li>
+</ol></li>
+<li><span style=3D"color: rgb(255,102,0);"><strong>On the Standalone Workst=
+ation:</strong></span> <span style=3D"color: rgb(0,0,0);">Connect your Exte=
+rnal Hard Drive, or USB to the Standalone Workstation, and Copy the "<stron=
+g>all-2.0.tar</strong>" and "<strong>nessus.license</strong>" Files to a Di=
+rectory of your Choice on the Standalone Workstation.</span>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">After y=
+ou have Coppied these Files to the Standalone Machine, Right-Click the "<st=
+rong>nessus.license</strong>" File, and Click "<strong>Open with</strong>",=
+ Click "<strong>More apps</strong>", and Click "<strong>Notepad</strong>".<=
+/span></li>
+<li style=3D"color: rgb(0,0,0);"><p><span style=3D"color: rgb(0,0,0);">Once=
+ the "<strong>nessus.license</strong>" File opens in Notepad, Press "<stron=
+g>CTRL+A</strong>" to Select Everything, and then Copy the Contents, "<stro=
+ng>CTRL+C</strong>".</span></p></li>
+<li style=3D"color: rgb(0,0,0);"><p><span style=3D"color: rgb(0,0,0);">Go b=
+ack to the Edge Web Browser, and Paste the Contents of the "<strong>nessus.=
+license</strong>" File into the Section "<strong>Nessus License Key *</stro=
+ng>", and then Click "<strong>Continue</strong>"<span style=3D"letter-spaci=
+ng: 0.0px;">.</span></span></p></li>
+</ol></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><span s=
+tyle=3D"letter-spacing: 0.0px;">You have now </span>Successfully<span style=
+=3D"letter-spacing: 0.0px;"> Licensed Tenable Nessus! The Next Section will=
+ go over Configuring Tenable Nessus.</span></span></li>
+</ol>
+<h2 id=3D"TenableNessusGuide&amp;Documentation-ConfiguringTenableNessus(Sta=
+ndaloneWindowsWorkstation)"><span style=3D"color: rgb(0,0,0);"><strong>Conf=
+iguring Tenable Nessus (Standalone Windows Workstation)</strong></span></h2=
+>
+<p><span style=3D"color: rgb(0,0,0);">This guide assumes that you have alre=
+ady completed the "<strong>Licensing Tenable Nessus</strong>" portion of th=
+e guide, and that you are still on the Standalone Workstation.</span></p>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">If you =
+are Continuing from right where the Previous Section Left Off, you are in t=
+he Right Place. Now that the Standalone Workstation is Licensed, we can Con=
+figure it. You should see a Screen that says "<strong>Create a user account=
+</strong>", for the "<strong>Username</strong>" Type in "<strong>SVC-Nessus=
+</strong>", and Configure the Password as you see fit.</span>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Once yo=
+u enter in your Username and Password Click the "<strong>Submit</strong>" B=
+utton.</span>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>Tip:</strong> If you Click on the Eyeball Icon for the Password Field, it =
+will show you your Password. This will allow you to Double-Check the Passwo=
+rd that you have Inputted.</span></li>
+</ol></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">After y=
+ou hit the "<strong>Submit</strong>" button, it will Initialize Nessus.</sp=
+an></li>
+</ol></li>
+<li><strong><span style=3D"color: rgb(255,0,0);">--------------------------=
+----------------------NEED TO VERIFY NEXT PARTS ON LAPTOPS-----------------=
+-------------------------------</span></strong></li>
+<li>W<span style=3D"color: rgb(0,0,0);">e can Finally see the Homescreen fo=
+r Nessus! For our next step, in the "<strong>About</strong>" Section, we ne=
+ed to Click the "<strong>Software Update</strong>" Tab</span>, <span style=
+=3D"color: rgb(255,102,0);">Close out Pop-Up at Top-Right?</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Next, Click "<strong>Manual Software=
+ Update</strong>" at the Top-Right of the Page, Select "<strong>Upload your=
+ own Plug-in Archive</strong>", and Click "<strong>Continue</strong>".</spa=
+n>
+<ol>
+<li><span style=3D"color: rgb(0,0,0);">Find "<strong>add-on file</strong>" =
+<span style=3D"color: rgb(255,102,0);">on the Bottom Left of the Page?</spa=
+n>, and Click it. </span><span style=3D"color: rgb(0,0,0);">Navigate to whe=
+re you Copied your </span>"<span style=3D"color: rgb(0,0,0);"><strong>all-2=
+.0.tar</strong></span>" File, Select it, and Click "<strong>Open</strong>".=
+</li>
+</ol></li>
+<li><span style=3D"color: rgb(0,0,0);">When the Add-On Update has Completed=
+, Open "<strong>Command Prompt</strong>" as <u>Administrator</u></span>
+<ol>
+<li><span style=3D"color: rgb(0,0,0);">Type in the Command: "<strong>net st=
+op "Tenable Nessus"</strong>", and Press "<strong>Enter</strong>".</span>
+<ol>
+<li><span style=3D"color: rgb(0,0,0);">This will End the Tenable Nessus Pro=
+cess.</span></li>
+</ol></li>
+<li><span style=3D"color: rgb(0,0,0);">Type in the Command: "<strong>net st=
+art "Tenable Nessus"</strong>", and Press "<strong>Enter</strong>".</span>
+<ol>
+<li><span style=3D"color: rgb(0,0,0);">This will Start the Tenable Nessus P=
+rocess.</span></li>
+</ol></li>
+<li><span style=3D"color: rgb(0,0,0);">We have effectively Reset the Tenabl=
+e Nessus Service, so that the appropriate Add-Ons can be Applied.</span></l=
+i>
+<li><span style=3D"color: rgb(255,102,0);">You can also Verify that the Upd=
+ate has gone through, by Left-Clicking the "<strong>Overview</strong>" Tab.=
+</span></li>
+</ol></li>
+<li><span style=3D"color: rgb(0,0,0);"><strong>Important:</strong>&nbsp;Mak=
+e Sure you Have the "<strong>Auditors</strong>" Security Group</span>
+<ol>
+<li><span style=3D"color: rgb(0,0,0);"><strong>Verify:</strong>&nbsp;Open C=
+omputer Management, Double Click on "<strong>Local Users and Groups</strong=
+>", and Double Click the "<strong>Groups</strong>" Folder.</span></li>
+<li><span style=3D"color: rgb(0,0,0);">If you Do Not Have the "Auditors" Se=
+curity Group</span>
+<ol>
+<li><span style=3D"color: rgb(0,0,0);">Right-Click the Space Below the Name=
+s of the Various Groups, and then Click on "<strong>New Group...</strong>".=
+</span></li>
+<li><span style=3D"color: rgb(0,0,0);">For "<strong>Group name:</strong>" T=
+ype in "Auditors" (you could also add a description if you would like), Cli=
+ck "<strong>Create</strong>", and then Click "<strong>Close</strong>".</spa=
+n></li>
+<li><span style=3D"color: rgb(0,0,0);">If Done Correctly, the Auditors Grou=
+p Should Appear in the List (usually at the bottom of the list).</span></li=
+>
+</ol></li>
+</ol></li>
+<li><span style=3D"color: rgb(0,0,0);"><strong>Important:</strong> Create a=
+ New User Called "<strong>SVC-Nessus</strong>"</span><br>
+<ol>
+<li><span style=3D"color: rgb(255,102,0);"><span style=3D"color: rgb(255,0,=
+0);"><strong>-----------BELOW IS POST-ACCOUNT CREATION | NEED TO ADD ACCOUN=
+T CREATION STEPS-----------</strong></span></span></li>
+<li><span style=3D"color: rgb(0,0,0);">Open "<strong>Computer Management</s=
+trong>", Click on "<strong>Local Users &amp; Groups</strong>", Click on "<s=
+trong>u</strong><strong>sers</strong>", and Click on "<strong>SVC-Nessus</s=
+trong>".</span></li>
+<li><span style=3D"color: rgb(0,0,0);"><strong>Verify:</strong>&nbsp;Open C=
+omputer Management, Double Click on "<strong>Local Users and Groups</strong=
+>", and Double Click the "<strong>Groups</strong>" Folder.</span></li>
+<li><span style=3D"color: rgb(0,0,0);">If you Do Not Have the "Auditors" Se=
+curity Group</span>
+<ol>
+<li><span style=3D"color: rgb(0,0,0);">Right-Click the Space Below the Name=
+s of the Various Groups, and then Click on "<strong>New Group...</strong>".=
+</span></li>
+<li><span style=3D"color: rgb(0,0,0);">For "<strong>Group name:</strong>" T=
+ype in "Auditors" (you could also add a description if you would like), Cli=
+ck "<strong>Create</strong>", and then Click "<strong>Close</strong>".</spa=
+n></li>
+<li><span style=3D"color: rgb(0,0,0);">If Done Correctly, the Auditors Grou=
+p Should Appear in the List (usually at the bottom of the list).</span></li=
+>
+</ol></li>
+</ol></li>
+<li><span style=3D"color: rgb(255,102,0);"><strong>------------------------=
+------------------------[THE BELOW SECTION NEEDS A LOT OF WORK]------------=
+------------------------------------</strong></span></li>
+<li><span style=3D"color: rgb(0,0,0);">Next, we Need to Change the File Per=
+missions <strong>For Each</strong> of the Following Directories. If you hav=
+e a 64-Bit Computer, Change the Permissions for the Folders Under "<strong>=
+64-Bit</strong>". If you have a 32-Bit Computer, Change the Permissions for=
+ the Folders Under "<strong>32-Bit</strong>"</span>
+<ol>
+<li><strong><span style=3D"color: rgb(0,0,0);">64-Bit</span></strong>
+<ol>
+<li><span style=3D"color: rgb(255,0,255);"><strong>"C:\Program Files\Tenabl=
+e\Nessus"</strong></span></li>
+<li><span style=3D"color: rgb(255,0,255);"><strong>"C:\Program Files\WinPca=
+p"</strong></span></li>
+</ol></li>
+<li><strong><span style=3D"color: rgb(0,0,0);">32-Bit</span></strong>
+<ol>
+<li><span style=3D"color: rgb(51,102,255);"><strong>"C:\Program Files(x86)\=
+Tenable\Nessus"</strong></span></li>
+<li><span style=3D"color: rgb(51,102,255);"><strong>"C:\Program Files\WinPc=
+ap"</strong></span></li>
+</ol></li>
+<li><span style=3D"color: rgb(255,102,0);"><strong>------------------------=
+------------------------Maybe Get Screenshots for this Section?------------=
+------------------------------------</strong></span></li>
+<li><span class=3D"confluence-embedded-file-wrapper"><img class=3D"confluen=
+ce-embedded-image" draggable=3D"false" src=3D"c1e557dbdd7a0c2e745394de1db36=
+9e8" data-image-src=3D"/confluence/download/attachments/1316980614/image-20=
+24-5-7_16-34-26.png?version=3D1&amp;modificationDate=3D1715114066916&amp;ap=
+i=3Dv2" data-unresolved-comment-count=3D"0" data-linked-resource-id=3D"1321=
+402620" data-linked-resource-version=3D"1" data-linked-resource-type=3D"att=
+achment" data-linked-resource-default-alias=3D"image-2024-5-7_16-34-26.png"=
+ data-base-url=3D"https://collab.bbn.com/confluence" data-linked-resource-c=
+ontent-type=3D"image/png" data-linked-resource-container-id=3D"1316980614" =
+data-linked-resource-container-version=3D"2" alt=3D"" width=3D"300" height=
+=3D"251"></span></li>
+<li><span class=3D"confluence-embedded-file-wrapper confluence-embedded-man=
+ual-size"><img class=3D"confluence-embedded-image" draggable=3D"false" heig=
+ht=3D"250" width=3D"303" src=3D"84d5c6a3381f5ef2f08c41a93d7a3a7a" data-imag=
+e-src=3D"/confluence/download/attachments/1316980614/Nessus%20Auditing%20Pe=
+rmissions.png?version=3D1&amp;modificationDate=3D1714431885542&amp;api=3Dv2=
+" data-unresolved-comment-count=3D"0" data-linked-resource-id=3D"1316980615=
+" data-linked-resource-version=3D"1" data-linked-resource-type=3D"attachmen=
+t" data-linked-resource-default-alias=3D"Nessus Auditing Permissions.png" d=
+ata-base-url=3D"https://collab.bbn.com/confluence" data-linked-resource-con=
+tent-type=3D"image/png" data-linked-resource-container-id=3D"1316980614" da=
+ta-linked-resource-container-version=3D"2" alt=3D""></span></li>
+</ol></li>
+<li><span style=3D"color: rgb(255,102,0);"><strong>------------------------=
+------------------------[THE ABOVE SECTION NEEDS A LOT OF WORK]------------=
+------------------------------------</strong></span></li>
+<li><span style=3D"color: rgb(0,0,0);"><strong style=3D"text-align: left;">=
+LEFT OFF AT STEP 33 ON NOTES</strong></span></li>
+<li><span style=3D"color: rgb(255,102,0);"><span style=3D"color: rgb(255,0,=
+0);"><strong>-----------NEED TO TEST AND VERIFY PARTS OF THIS-----------</s=
+trong></span></span></li>
+<li><span style=3D"color: rgb(255,102,0);">For the "<strong>\Nessus</strong=
+>" <strong><span style=3D"color: rgb(255,0,0);">-----------AND "\NPcap" AND=
+ "WinPcap"----------- </span></strong>Folder, Right Click the Folder, Click=
+ on <strong style=3D"text-align: left;">Properties -&gt; Security -&gt; Adv=
+anced -&gt;&nbsp;</strong>Click "<strong>Add</strong>" <strong>-&gt;</stron=
+g> Click "<strong style=3D"text-align: left;">Select a principle</strong>"&=
+nbsp;<strong style=3D"text-align: left;">-&gt;</strong>&nbsp;In the "<stron=
+g style=3D"text-align: left;">Enter the object name to select (<u>examples<=
+/u>):</strong>" Field, Input the Name of your "<strong style=3D"text-align:=
+ left;">Auditors</strong>" Group&nbsp;<strong style=3D"text-align: left;">-=
+&gt;</strong>&nbsp;Press the "<strong style=3D"text-align: left;">Enter</st=
+rong>" Key&nbsp;</span>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Make Su=
+re "<strong>Type:</strong>" is Set to "<strong>Allow</strong>",&nbsp;"<stro=
+ng>Applies to:</strong>" is Set to "<strong>This folder, subfolders and fil=
+es</strong>", and Under "<strong>Basic permissions:</strong>" Check the Box=
+ that Says "<strong>Full control</strong>", and Click "<strong>OK</strong>"=
+.</span></li>
+<li><span><span><span style=3D"color: rgb(255,102,0);">Check the Box that S=
+ays, "<strong style=3D"text-align: left;">Replace all child object permissi=
+on entries with inheritable permission entries from this object</strong>"&n=
+bsp;<strong style=3D"text-align: left;">-&gt;</strong>&nbsp;Click "<strong =
+style=3D"text-align: left;">Apply</strong>"&nbsp;<strong style=3D"text-alig=
+n: left;">-&gt;</strong>&nbsp;for the "<strong style=3D"text-align: left;">=
+Windows Security</strong>" Prompt, Click "<strong style=3D"text-align: left=
+;">Yes</strong>"&nbsp;<strong style=3D"text-align: left;">-&gt;</strong>&nb=
+sp;Click "<strong style=3D"text-align: left;">OK</strong>".</span></span></=
+span></li>
+<li><span><span><span style=3D"color: rgb(0,0,0);">Under the "<strong>Permi=
+ssion entries:</strong>" Section Double Click ""<strong>Administrators</str=
+ong>",</span><span>&nbsp;</span></span></span><span style=3D"color: rgb(255=
+,0,0);">Make Sure "<strong>Type:</strong>" is Set to "<strong>Allow</strong=
+>",&nbsp;"<strong>Applies to:</strong>" is Set to "<strong>Subfolders and f=
+iles only</strong>", and Under "<strong>Basic permissions:</strong>" Un-Che=
+ck all the Boxes, then Check the Box that Says "<strong>Read &amp; execute<=
+/strong>", and Click "<strong>OK</strong>". <strong>-----------</strong><st=
+rong>SET THIS TO MATCH PREVIOUS ADMIN PERMISSIONS-----------NEED TO TEST---=
+--------</strong></span></li>
+<li><span style=3D"color: rgb(255,102,0);">Check the Box that Says, "<stron=
+g>Replace all child object permission entries with inheritable permission e=
+ntries from this object</strong>", Click "<strong>Apply</strong>", for the =
+Two "<strong>Windows Security</strong>" Prompts Click "<strong>Yes</strong>=
+", and then Click "<strong>OK</strong>".</span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">We have=
+ Successfully Configured all of the Appropriate File Permissions surroundin=
+g Tenable Nessus!</span></li>
+</ol></li>
+<li><span style=3D"color: rgb(0,0,0);">Now, <strong>Open Nessus:</strong> <=
+/span><span style=3D"color: rgb(0,0,0);">Do a Windows Search for "<strong>N=
+essus WebClient</strong>".</span>
+<ol>
+<li><span style=3D"color: rgb(0,0,0);"><strong>Tip:</strong> You could also=
+ open you Web Browser, and Type in "<strong>localhost:8834</strong>" in the=
+ URL Box.</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Log in to your Account: "<strong>use=
+rname: SVC-Nessus</strong>", "<strong>pass: [Previously Configured Password=
+]</strong>"</span>
+<ol>
+<li><span style=3D"color: rgb(0,0,0);"><strong>IMPORTANT:</strong> Make sur=
+e you <strong>DO NOT</strong> Check "<strong>Remember Me</strong>", for Sec=
+urity Purposes.</span></li>
+</ol></li>
+</ol></li>
+<li><span style=3D"color: rgb(0,0,0);">Once Logged-In, Click the "<strong>S=
+cans</strong>" Tab at the Top, and then Click on "<strong>My Scans</strong>=
+" on the Left Side-Bar (Under the "<strong>Folders</strong>" Category).</sp=
+an>
+<ol>
+<li><span style=3D"color: rgb(0,0,0);">Now Click "<strong>Basic Network Sca=
+n</strong>" (Located Under the "<strong>Vulnerabilities</strong>" Tab).</sp=
+an></li>
+<li><span style=3D"color: rgb(0,0,0);">In the "<strong>Name</strong>" Text =
+Box Type "<strong>Network Scan</strong>", and in the "<strong>Description</=
+strong>" Text Box Type "<strong>Test Network Scan</strong>".</span></li>
+<li><span style=3D"color: rgb(0,0,0);">In the Drop-Down Menu for "<strong>F=
+older</strong>", Select "<strong>My Scans</strong>", and in the "<strong>Ta=
+rgets</strong>" Section, Type the <strong>Target IP Address Range</strong> =
+for your LAN.</span>
+<ol>
+<li><span style=3D"color: rgb(0,0,0);"><strong>Ex:</strong> "<strong>192.16=
+8.1.1-192.168.1.254</strong>"</span></li>
+</ol></li>
+<li><span style=3D"color: rgb(0,0,0);">Now Click the Blue, "<strong>Save</s=
+trong>" Button.</span></li>
+</ol></li>
+<li><span style=3D"color: rgb(255,102,0);"><span style=3D"color: rgb(255,0,=
+0);"><strong>-----------NEED TO ADD GETTING RID OF SSH AND VERIFY PARTS OF =
+THIS-----------</strong></span></span></li>
+<li><span style=3D"color: rgb(0,0,0);">Now Click on the "<strong>Credential=
+s</strong>" Tab, Under "<strong>Categories</strong>" Click on "<strong>Wind=
+ows</strong>" (With the Drop-Down Menu "<strong>Host</strong>"), and Enter =
+in your associated Credentials.</span>
+<ol>
+<li><span style=3D"color: rgb(0,0,0);"><strong>Ex:</strong> "<strong>Authen=
+tication method</strong>"&nbsp;<strong>-</strong> "<strong>Password</strong=
+>"</span></li>
+<li><span style=3D"color: rgb(0,0,0);"><strong>Ex:</strong> "<strong>Userna=
+me</strong>"&nbsp;<strong>-</strong> "<strong>SVC-Nessus</strong>"</span></=
+li>
+<li><span style=3D"color: rgb(0,0,0);"><strong>Ex:</strong> "<strong>Passwo=
+rd</strong>"&nbsp;<strong>-</strong> "<strong>[Previously Configured Passwo=
+rd]</strong>"</span></li>
+<li><span style=3D"color: rgb(0,0,0);"><strong>Ex:</strong> "<strong>Domain=
+</strong>"&nbsp;<strong>-</strong> "<strong>LAN_Domain</strong>"</span></li=
+>
+</ol></li>
+<li><span style=3D"color: rgb(255,102,0);"><span style=3D"color: rgb(255,0,=
+0);"><strong>-----------NEED TO ADD GETTING RID OF SSH AND VERIFY PARTS OF =
+THIS-----------</strong></span></span></li>
+<li><span style=3D"color: rgb(0,0,0);">You should be on the "<strong>My Sca=
+ns</strong>" Page now (<strong>Folders -&gt;&nbsp;My Scans)</strong>. For t=
+he scan you just made, Click on the <strong>Play</strong> Button on the Far=
+ Right of the Scan Name "Launch".</span>
+<ol>
+<li><span style=3D"color: rgb(0,0,0);">The Scan will now Begin.</span></li>
+<li><span style=3D"color: rgb(0,0,0);">You will know when the Scan was comp=
+leted, when it says "<strong style=3D"text-align: left;">=E2=9C=93 Today at=
+ [the time you scanned it at]</strong>" for your Configured Scan.</span></l=
+i>
+</ol></li>
+<li><span style=3D"color: rgb(0,0,0);">Congratulations! You have Successful=
+ly Installed, Licensed, and Configured Tenable Nessus! Now you're good to g=
+o! :smile:</span></li>
+</ol>
+<p><span style=3D"color: rgb(0,0,0);">------Delete-----</span></p>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Still need to add Getting Rid of SSH=
+ Part in Scan Configuration</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Still need to add creating SVC-Nessu=
+s Account in Local Users and Groups</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Still need to fix Configuring Local =
+File Permissions</span></li>
+</ul>
+<p><br></p>
+<p><span style=3D"color: rgb(0,0,0);">------Delete-----</span></p>
+<h1 id=3D"TenableNessusGuide&amp;Documentation------------------WorkInProgr=
+ess-----------------.1"><span style=3D"color: rgb(255,0,0);"><strong>------=
+-----------Work In Progress</strong><strong>-----------------</strong></spa=
+n></h1>
+    </div>
+</body>
+</html>
+------=_Part_953_462308212.1715114086152
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/c1e557dbdd7a0c2e745394de1db369e8
+
+iVBORw0KGgoAAAANSUhEUgAAASwAAAD7CAYAAADQMalWAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAHUvSURBVHhe7d0J/G1T+T/wxb0uMktlHkLGhMg8
+Zcg8yzzcDCFUMoQkZCpDiAwlrjLckFnGSIZSIlKovyFTEjJmuPZ/v5fvc3/bcb73fr/nDr7nWp/X
+a7/OOXuvvYZnPc9nPWudvZ49UepBVaPna0FBQcGAxMQ9nwUFBQUDHu/xsCaZZJI0++yz95wpKCgo
+GFh4D2F98pOfTP/v//2/njMFBQUFAwtlSlhQUNA1KIRVUFDQNSiEVVBQ0DXomLDefvvt9Prrr6fX
+XnstH76/+eab6Z133ulJMX4wYsSI9L///S+98cYb1uF6zvYd6qve8pBXQUHBwEVHhIUczjzzzLTE
+EkukeeedN80333zpc5/7XNpvv/3Sn/70p/Fm+Opx6623ps022yzttNNO6dFHH+250nf4k2H//fdP
+G220UfrVr37Vc7agoGAgoiPC4sn8+9//Ts8880z+/fGPfzyTx9lnn51J65577snnpUNevDFH0/ty
+zTnX43C9+b15XzMvn35PNNFEyaMY0047bZpmmmnSoEGD8vnWewPt8nTPVFNNlaabbro02WST5XSt
+eUR9mtfiXGudAs37fW9eKygo6AwdPdZg+vS9730vnX766ekrX/lK+sY3vpFuv/32dMABB6S///3v
+6YwzzkgbbLBBJrW//e1v6fnnn0+TTz55mmOOOdKcc86ZJp100vSvf/0re2Mf+9jH8nQS4c0999zp
+n//8Zzb+mWeeOdeFoc8000zpox/9aHr66afTs88+mwnqU5/6VL73ueeeS3/5y19ynjw+ef3jH//I
+aZHZXHPNlcuU5+OPP569sLfeeivNMsssuTyk99BDD6VXXnkle4ozzjhjevnll3PaJ554Ik93p5xy
+yjTbbLPlA7Tx1VdfzedfeOGFnF5dyE89yUc5jz32WCYrz7apA2JUXkFBwRgCYdXG7WO0qEmhOvTQ
+Q6uaSKrvfOc7VU1I1dVXX13V08KqNurq8ssvr2qDr2oCqxZYYIFqiimmqGqCqOqpW3X99ddXtZFX
+F154YVUTT7XUUktVn/70p6tFFlmkOvnkk/PvmtiqTTbZJOc//fTTVyussEJVT/mqZZZZJt+z8MIL
+VyeccEL15JNPVldeeWW12GKLVWuttVZVE0R18cUXV8svv3xVE0euyx577FE9+OCD1Z133ll98Ytf
+rGoirGaYYYac/w033FD98Y9/rLbddttq2WWXra644opcN3m47v6aZKqacKqtt966uuaaa6qaZKua
+pKvFF1+8WmONNaoFF1ywqr2zXO+aqKuapKubbrop3/+JT3yiqr3Paptttql+85vfZLkVFBR0jjH6
+l5CnYt3nwAMPTCeeeGL2jj772c+m2lBTbaDp5z//efZYvva1r6XauLMnVJNB9oosdPNMeGE1WaQv
+f/nL2RPhIf3nP//J13bYYYdUE0O666670s0335w+85nPpJp0slfz29/+NntBMTWDl156KdUElD2s
+FVdcMa233nrZy3rxxRdTTVo5D2tuW221Vfb2/vvf/2ZvyLQN5MUjvOCCC/LnOuusk775zW+mmozS
+73//+/TLX/4ye03S8aDcL83aa6+dPTpeJm9S2t/97nepJtK0xRZbjPTayKugoKBzjBFhMfQ///nP
+6aKLLsqGvOGGG6bao8lTJ8SBKJ566qn8PaaGpnmmX2DNCBkccsghaccdd8zTN1OmWWedNe299955
+urnaaqvl35///Ocz8e28886p9sgy6ZlWNiE/00frUUjPNHHJJZfM0z8kasqG1Ezn4s8CaQJIVH2R
+0TzzzJN233339NWvfjVtt912eYqqjcgSrNshT9Pg7bffPhOg9mmz+irTb1Pd2svM089mWQUFBf3H
+GBEWgvjSl76U6qlVuuSSS1I9PUz19C2f57nwKKwD3X333ZmoeDv1FC9/wsQTT5wXy5EMY/YbYr3L
+50c+8pG8VoRw3Os7QpI/b6wJ1xDcrrvumqaeeupUT03T+eefn70rJIfwfPJ+zj333OwRWaNqgvdU
+e565PsofPHhwqqe0+XfTm1MvnpO6KEvaqFM9Jc3EjaR4msr6wx/+8L6yCgoK+oeOCYsnhGCQjaka
+L4LXMWTIkGzkvCwEY0qENEynfvGLX6Tvfve72fsYm4iFbB4NMuLVmE6ussoq2eMxVUWapmoeX+AZ
+uQeJShvwjyHSQ1Cu/frXv87eoU//iJqyWvDvDYgOoV177bXZS9N25SFu01eEVlBQ0Dk6JizEFB5I
+K5xfffXV0/zzz5+uuuqqtO6666ZVV101/3PoH0RrP+7nifkMIAyei/PIEKnwxuTnM0gyynZO+c18
+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
+vquDttIfskDAvmunviAXa3ZkTI70xb/++sKMCzFHP/UHI2muFlK/Y7pTRsKikASoYwlIh6sYo9Vw
+CocInCMMiqMRzjEeCssgCMVoRIkolVFJWopBGIxc/RiTsnWisjQewTEWZVBaRhRwH+E6CF/HKy/I
+BanwGHWGc8qgKBQHmVES5IgcKIl0Rg6KiWSMStqOECkAb0OdKCG5IAKHNoN8pZGW7HSuejtHydWH
+gfqNPJCw+jAyMmJE0lNq8jdykTtvhUx5JxS3SZCmzbzJphciLwaijYwDCSIMQGDapyx9QhHVl5wR
+qby124GAyMV1sqGkZKw++jbWoNRJfzJcfaStdMRgpR1kaZGW7NSX4SlXGkZPhq43+5ZcPDrhIWZ/
+THimCyGQsbrSId/1ITmCvHlM2sVIw6CQiTqSZQye0bd0B6mBeuiXprcXfaodZKw8eak7Xabn2sJI
+ndd2OhQDM5nSc+eQDx1XT3VUjnb6zkblQW/USVnuJTu6TXdC3vou2twKfUbPtVke2qhNBmCypn9k
+IE/ngCylJRN9QGeCnBEgm/JvsX+etcWMSzvBHzT6Bil7aJmudUJYI1ELvKqVyUdBQdegNpKq9n6q
+2qOvNtpoo6omv54rBeMbzz33XPWtb32rqj3v6sgjj6xqoq5qMq3qAbU6+uijq5q8qpNPPrmqSS+f
+7wRjQHEFBR88eANGa2tvPLsxGrULxggx8zDd5XXxsHnxPEBeokdvTCfNPJzvBGM0JSwoGAgwLTEV
+NiXzZwBDKRj/MM20xoe4LNeYpiImv53XTwjN9LMQVkFBwQSP4j8XFBR0DQphFRQUdA0KYRUUFHQN
+CmEVFBR0DQphFRQUdA0KYRUUFHQNCmEVFBR0DQphFRQUdA0KYRUUFHQNCmEVFBR0DQphFRQUdA0K
+YRUUFHQNCmEVFBR0DQphFRQUdA0KYRUUFHQNCmEVFBR0DQphFRQUdA0KYRUUFHQNCmEVFBR0DQph
+FRQUdA0KYRUUFHQNCmEVFBR0DQphFRQUdA0KYX1AGDFiRHrsscfS9ddfn/785z+n119/vedKQUFB
+bygvUm2Df//73+kPf/hDevPNN9MSSyyRZplllp4rYw/eUnzZZZela665Jq2yyipp4403zq/zLugO
+vPbaa+lvf/tbuueee9Lkk0+ell122TT77LN3/EbjvuLFF19Mv//979N///vftNRSS+UyW3H//ffn
+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
+W0/sNrfpExk4bFalSPEEss2YSIa7bx+YjaNg17qNnBTbpl3nKal7bVCWFyX3pLi9YjZq2jEvgoIH
+X9XNBmDpTA3cJ5385Ou86xRbXTwV7T473+VjM6ny1EmUB/WxKVQ+Nowia/fLKza8RvwhdXKog/vt
+6HfdPe5tbtCWHwO00Vk5PskI1AuR8hiRqEMZ8tUW16TXFpuQ1df5dttR3CsfZZAfuUunnja6NvPS
+Jn2jrj7dqw3Kjg282qA98oz2kUPzmuid0vuuD+VP3jYZK0PYaPHXbd4V+cBmXfeqg3yl13faa8tN
+eNIGSNub9Je06hftMEjykEUYoAvyJF/ptF1+6kO2ZdvOBIDagKq55prLx2hRG2d16KGHVrWyVUcc
+cURVK311yy23VLXRVzPOOGN16aWXVrXBVqeeemq13HLLVbViVgsssEC15557VjXJVbVXVF122WXV
+vPPOW2244YbViiuuWC299NJVTXxVPcWsllxyyaqeouXrtXJW9XSzqvm0WmeddapZZ521WmWVVaph
+w4blMq677rr8e/PNN69qZa9uvPHGnN59Cy20UHXwwQdXtdFU999/f/X1r389n9POHXfcsbrjjjuq
+eopR7b777tVaa61VXXvttVVtaLktztUEVn3iE5+oFllkkWqfffapam+yqo2x2n///XP67bbbrlp2
+2WWrOeecs1p//fWreppc1eSW26it8803XzX33HNXe+yxR1UbXJZTQDlXXXVVrqv6zDDDDNX8889f
+7bvvvrmMmviroUOHVuutt14uS15k7tr555+fy5tjjjnyvdp+8803535pxSmnnFLVBpz7RVvI9vjj
+j69qEqpqg879sPHGG+e89NFBBx1U1URU1Yaey1tsscWqmWaaqVp11VWrmmhyGWS+0UYbVbPNNlvu
+j7XXXjv3ufxqEsl1Wm211aq9994713uWWWapNttss+ree++tzj777KomLi5QVZNR1qGLL764euCB
+B3I7QxbzzDNPbr/+qcmmOuaYY6qaFLOurLnmmjnPmryqepCtaiLOMtFP+k3da/KvzjzzzGqllVbK
+acl2l112qW6//faqJvge6RR0Gzr2sAQME4wOjNwWQ0VOFL9HDCdTLIugRl4jHs/FwihvwOZUsZQE
+gTPiCyBmiuDT6Gu0VIZ0RmrlCKwn7IyQGNYzeExi+Rg5hQzmFdj8KpqlwHOiSsrPqOq7WFTaJ8SH
+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
+AABJRU5ErkJggg==
+------=_Part_953_462308212.1715114086152
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/84d5c6a3381f5ef2f08c41a93d7a3a7a
+
+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
+NsaYjTOZ/H8g1plBgYdO5gAAAABJRU5ErkJggg==
+------=_Part_953_462308212.1715114086152--

@@ -1,0 +1,834 @@
+Date: Tue, 7 May 2024 16:29:36 -0400 (EDT)
+Message-ID: <1938746912.952.1715113776302@c-prod-wiki01.mgmt.bbn.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_951_1722632533.1715113776301"
+
+------=_Part_951_1722632533.1715113776301
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Standalone GPO Backup &amp; Import Guide/Documentation</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Standalone GPO Backup &amp; Import Guide/Documentation</h1>
+    <div class=3D"Section1">
+        <div class=3D"contentf-horizontalnav">
+<nav class=3D"aui-navgroup aui-navgroup-horizontal">
+<div class=3D"aui-navgroup-inner">
+<div class=3D"aui-navgroup-primary">
+<ul class=3D"aui-nav">
+</ul>
+</div>
+</div>
+</nav>
+<div class=3D"aui-page-panel">
+<div class=3D"aui-page-panel-inner">
+<section class=3D"aui-page-panel-content">
+<div id=3D"LGPOInformation&amp;amp;Guide" data-nav-item-title=3D"LGPO Infor=
+mation &amp; Guide" class=3D"nav-content">
+<h2 id=3D"StandaloneGPOBackup&amp;ImportGuide/Documentation-WhatisLGPO.exe?=
+"><span style=3D"color: rgb(0,0,0);"><strong>What is LGPO.exe?</strong></sp=
+an></h2>
+<ul>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">LGPO.ex=
+e is a Tool that is used for Backing-Up and Importing Group Policy Objects =
+to and from Local Machines.</span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">LGPO.ex=
+e is Utilized Directly from the Command Prompt with Flags</span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">LGPO.ex=
+e can Import an Entire Directory of Group Policy Objects.</span>
+<ul>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Ex: You=
+ can Import the Folders Containing "<strong>Google</strong>", "<strong>Micr=
+osoft</strong>", and "<strong>Microsoft Edge</strong>" Group Policy Objects=
+ all at Once with LGPO.exe.&nbsp;</span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">A .ADMX=
+ File is a Group Policy Object File</span></li>
+</ul></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">This To=
+ol can Save a Significant Amount of Time for the Hardening Process of Stand=
+alone Machines</span></li>
+</ul>
+<h2 id=3D"StandaloneGPOBackup&amp;ImportGuide/Documentation-HowtoGetLGPO.ex=
+e"><span style=3D"color: rgb(0,0,0);"><strong>How to Get LGPO.exe</strong><=
+/span></h2>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);"><strong>Note:</strong> The Target Ma=
+chine Must Run on a Windows 10 Operating System.</span></li>
+<li><span style=3D"color: rgb(0,0,0);">LGPO.exe is Part of the Microsoft Se=
+curity Compliance Toolkit 1.0, which can be Downloaded Here:</span> <strong=
+><a href=3D"https://www.microsoft.com/en-us/download/details.aspx?id=3D5531=
+9" class=3D"external-link" rel=3D"nofollow">https://www.microsoft.com/en-us=
+/download/details.aspx?id=3D55319</a></strong></li>
+<li><span style=3D"color: rgb(0,0,0);">You Could Also Download the Attached=
+ "<strong>LGPO.zip</strong>" File</span>
+<ul>
+<li><u style=3D"letter-spacing: 0.0px;">LGPO.zip</u></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);">Once you have Downloaded the "<stron=
+g>LGPO.zip</strong>" File, Copy it to an External Hard Drive or USB.</span>=
+</li>
+<li><span style=3D"color: rgb(0,0,0);">Plug the External Hard Drive or USB =
+into the Target Machine, and Copy the "<strong>LGPO.zip</strong>" File to a=
+ny Directory of your choice on the Target Machine.</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Open the "<strong>LGPO.zip</strong>"=
+ File, on the Target Machine, and Extract the "<strong>LGPO_30</strong>" Fo=
+lder to any Directory of your choice.</span></li>
+<li><span style=3D"color: rgb(0,0,0);"><strong>Important:</strong> Open Fil=
+e Explorer, Click on "<strong>This PC</strong>", Click on "<strong>Windows =
+(C:)</strong>", and make sure you have a Folder Called "<strong>Temp</stron=
+g>". If you Do Not Have this Folder, Make Sure you Create it.</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Once the&nbsp;"<strong>LGPO_30</stro=
+ng>" Folder has been Extracted, and you Verified that you have the "<strong=
+>C:\Temp</strong>" Folder, you are good to go!</span></li>
+</ul>
+<h2 id=3D"StandaloneGPOBackup&amp;ImportGuide/Documentation-HowtoBackupGPOs=
+withLGPO.exe"><span style=3D"color: rgb(0,0,0);"><strong>How to Backup GPOs=
+ with LGPO.exe</strong></span></h2>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Run the=
+ Command Prompt as Administrator</span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Type in=
+ "<strong>cd [Directory Path for the Extracted LGPO Folder]</strong>" and t=
+hen Press "<strong>Enter</strong>".</span>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Ex: <st=
+rong>"cd C:\Users\Administrator\Desktop\LGPO_30"</strong></span></li>
+</ol></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Type in=
+ "<strong>lgpo.exe /b C:\Temp</strong>" and then Press "<strong>Enter</stro=
+ng>".</span>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"letter-spacing: 0.0px;color=
+: rgb(0,0,0);">This will Create a Backup of your Local Group Policy Objects=
+, and Store them in the "<strong>C:\Temp</strong>" Folder.</span><br>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"letter-spacing: 0.0px;color=
+: rgb(0,0,0);">You Should See an Output that Says: <strong>"Creating LGPO b=
+ackup in "C:\Temp\{347BC0C8-3911-466F-B8C7-5CF2CB741323}"</strong>"</span><=
+/li>
+</ol></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"letter-spacing: 0.0px;color=
+: rgb(0,0,0);"><strong>Note:</strong> This <strong>/b</strong> Option will =
+not back up MLGPO Configuration Settings.</span></li>
+</ol></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Open Fi=
+le Explorer, Click on "<strong>This PC</strong>", Click on "<strong>Windows=
+ (C:)</strong>", Click on "<strong>Temp</strong>", and if Everything Worked=
+ Properly you should see a Folder Similar to this, "<strong>{347BC0C8-3911-=
+466F-B8C7-5CF2CB741323}</strong>".</span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">You hav=
+e Successfully Completed an LGPO Backup!</span></li>
+</ol>
+<p><br></p>
+<p><span style=3D"color: rgb(0,0,0);"><strong>-----------WORK-IN-PROGRESS--=
+---------</strong></span></p>
+<h2 id=3D"StandaloneGPOBackup&amp;ImportGuide/Documentation-HowtoImportGPOs=
+withLGPO.exe(FromaGPOBackup)"><span style=3D"color: rgb(0,0,0);"><strong>Ho=
+w to Import GPOs with LGPO.exe (From a GPO Backup)</strong></span></h2>
+<p><span style=3D"color: rgb(0,0,0);">For this Guide we will be using the <=
+strong>DISA STIG GPOs</strong> as an Example, which can be obtained at:</sp=
+an> <strong><a href=3D"https://public.cyber.mil/stigs/gpo/" class=3D"extern=
+al-link" rel=3D"nofollow">https://public.cyber.mil/stigs/gpo/</a></strong><=
+/p>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Once yo=
+u have Downloaded your GPO File ("<strong>LGPO.zip</strong>" or ), Copy it =
+to an External Hard Drive or USB.</span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Plug th=
+e External Hard Drive or USB into the Target Machine, and Copy the "<strong=
+>LGPO.zip</strong>" File to any Directory of your choice on the Target Mach=
+ine.</span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Open th=
+e "<strong>LGPO.zip</strong>" File, on the Target Machine, and Extract the =
+"<strong>LGPO_30</strong>" Folder to any Directory of your choice.</span></=
+li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Run the=
+ Command Prompt as Administrator</span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Type in=
+ "<strong>cd [Directory Path for the Extracted LGPO Folder]</strong>", and =
+then Press "<strong>Enter</strong>".</span>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Ex: <st=
+rong>"cd C:\Users\Administrator\Desktop\LGPO_30"</strong></span></li>
+</ol></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">In the =
+command line type lgpo.exe /g "Path of provided GPO"</span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Import =
+is completed.</span></li>
+</ol>
+<h2 id=3D"StandaloneGPOBackup&amp;ImportGuide/Documentation-HowtoImportGPOs=
+withLGPO.exe(DISASTIGGPOs)"><span style=3D"color: rgb(0,0,0);"><strong>How =
+to Import GPOs with LGPO.exe (DISA STIG GPOs)</strong></span></h2>
+<p><span style=3D"color: rgb(0,0,0);">For this Guide we will be using the <=
+strong>DISA STIG GPOs</strong> as an Example, which can be obtained at:</sp=
+an> <strong><a href=3D"https://public.cyber.mil/stigs/gpo/" class=3D"extern=
+al-link" rel=3D"nofollow">https://public.cyber.mil/stigs/gpo/</a></strong><=
+/p>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Once yo=
+u have Downloaded your GPO File ("<strong>LGPO.zip</strong>" or ), Copy it =
+to an External Hard Drive or USB.</span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Plug th=
+e External Hard Drive or USB into the Target Machine, and Copy the "<strong=
+>LGPO.zip</strong>" File to any Directory of your choice on the Target Mach=
+ine.</span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Open th=
+e "<strong>LGPO.zip</strong>" File, on the Target Machine, and Extract the =
+"<strong>LGPO_30</strong>" Folder to any Directory of your choice.</span></=
+li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Run the=
+ Command Prompt as Administrator</span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Type in=
+ "<strong>cd [Directory Path for the Extracted LGPO Folder]</strong>", and =
+then Press "<strong>Enter</strong>".</span>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Ex: <st=
+rong>"cd C:\Users\Administrator\Desktop\LGPO_30"</strong></span></li>
+</ol></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">In the =
+command line type lgpo.exe /g "Path of provided GPO"</span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Import =
+is completed.</span></li>
+</ol>
+<h2 id=3D"StandaloneGPOBackup&amp;ImportGuide/Documentation-UsefulCommandsa=
+ndOptionsforLGPO.exe"><span style=3D"color: rgb(0,0,0);"><strong>Useful Com=
+mands and Options for LGPO.exe</strong></span></h2>
+<ul>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">WIP</sp=
+an></li>
+</ul>
+<p><br></p>
+<p><span style=3D"color: rgb(0,0,0);"><strong>-----------WORK-IN-PROGRESS--=
+---------</strong></span></p>
+<p><br></p>
+</div>
+<div id=3D"Importing&amp;amp;ConfiguringExternalPre-HardenedLGPOs" data-nav=
+-item-title=3D"Importing &amp; Configuring External Pre-Hardened LGPOs" cla=
+ss=3D"nav-content">
+<h2 id=3D"StandaloneGPOBackup&amp;ImportGuide/Documentation-WhatdoesthisGPO=
+Importdo?"><span style=3D"color: rgb(0,0,0);"><strong>What does this GPO Im=
+port do?</strong></span></h2>
+<ul>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">This GP=
+O Import will Harden the Following STIG Checklists</span>
+<ul>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>Windows 10 V2R5</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>Windows Firewall w/ Advanced Security V2R1</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>Adobe Acrobat Reader DC Continuous Track V2R2</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>MS Edge V1R6</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>MS Word 2016 V1R1</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>MS Excel 2016 V1R2</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>MS Publisher 2016 V1R4</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>MS PowerPoint 2016 V1R1</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>Google Chrome V2R8</strong></span></li>
+</ul></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">This GP=
+O Import Includes the <strong>Auditing Permissions</strong>, and <strong>Se=
+curity Permissions</strong>, for Security-Relevant Folders (shown in the "<=
+strong>Changing Folder Permissions</strong>" and "<strong>What's Left?</str=
+ong>" Sections of the Guide)</span></li>
+</ul>
+<h2 id=3D"StandaloneGPOBackup&amp;ImportGuide/Documentation-Requirements"><=
+span style=3D"color: rgb(0,0,0);"><strong>Requirements</strong></span></h2>
+<ul>
+<li style=3D"color: rgb(0,0,0);"><p><span style=3D"color: rgb(0,0,0);">Wind=
+ows 10 Operating System</span></p></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>Important:</strong> Make Sure you Have the "<strong>Auditors</strong>" Sec=
+urity Group</span>
+<ul>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>Verify:</strong> Open Computer Management, Double Click on "<strong>Local =
+Users and Groups</strong>", and Double Click the "<strong>Groups</strong>" =
+Folder.</span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">If you =
+Do Not Have the "Auditors" Security Group</span>
+<ul>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Right-C=
+lick the Space Below the Names of the Various Groups, and then Click on "<s=
+trong>New Group...</strong>".</span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">For "<s=
+trong>Group name:</strong>" Type in "Auditors" (you could also add a descri=
+ption if you would like), Click "<strong>Create</strong>", and then Click "=
+<strong>Close</strong>".</span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">If Done=
+ Correctly, the Auditors Group Should Appear in the List (usually at the bo=
+ttom of the list).</span></li>
+</ul></li>
+</ul></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Symante=
+c, Splunk, WinZip</span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Downloa=
+d the Attached "<strong>Standalone GPO.zip</strong>", "<strong>ADMX Templat=
+es.zip</strong>" and "<strong>ADMX Templates - en-US.zip</strong>" Files, C=
+opy them to an External Hard Drive or USB, and Copy these Files to the Targ=
+et Standalone Workstation.</span></li>
+</ul>
+<p><span style=3D"color: rgb(0,0,0);"><u>Standalone GPO.zip</u>&nbsp;<u>ADM=
+X Templates.zip</u>&nbsp;<u>ADMX Templates - en-US.zip</u></span></p>
+<ul>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Ensure =
+you put the Files from the "<strong>ADMX Templates.zip</strong>" Folder (<s=
+trong>access15.admx</strong>, <strong>access16.admx</strong>... <strong>Acr=
+obatDCContinuous.admx</strong>) into the "<strong>C:\Windows\PolicyDefiniti=
+ons</strong>" Folder.</span>
+<ul>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">If you =
+get the prompt "<strong>The destination has # files with the same names</st=
+rong>", Click on "<strong>Replace the files in the destination</strong>".</=
+span></li>
+</ul></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Ensure =
+you put the Files from the "<strong>ADMX Templates - en-US.zip</strong>" Fo=
+lder (<strong>access15.adml</strong>, <strong>access16.adml</strong>... <st=
+rong>AcrobatDCContinuous.adml</strong>) into the "<strong>C:\Windows\Policy=
+Definitions\en-us</strong>" Folder.</span>
+<ul>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">If you =
+get the prompt "<strong>The destination has # files with the same names</st=
+rong>", Click on "<strong>Replace the files in the destination</strong>".</=
+span></li>
+</ul></li>
+</ul>
+<h2 id=3D"StandaloneGPOBackup&amp;ImportGuide/Documentation-HowtoImportGPOs=
+withLGPO.exe(Pre-HardenedLGPOs)"><span style=3D"color: rgb(0,0,0);"><strong=
+>How to Import GPOs with LGPO.exe (Pre-Hardened LGPOs)</strong></span></h2>
+<p><span style=3D"color: rgb(0,0,0);">For this Guide we will be using the P=
+re-Hardened LGPOs Created by Arun. This Guide assumes that you have Already=
+ Completed the "<strong>Requirements</strong>" Section for this Guide.</spa=
+n></p>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">On the =
+Standalone Machine, Open the "<strong>Standalone GPO.zip</strong>" File, an=
+d Extract/Copy the "<strong>{5FB0CED9-04FD-4FD7-A421-94AF7943F509}</strong>=
+" and "<strong>LGPO_30</strong>" Folders to any Directory of your Choice.</=
+span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Run the=
+ Command Prompt as Administrator</span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Type in=
+ "<strong>cd [Directory Path for the Extracted LGPO_30 Folder]</strong>", a=
+nd then Press "<strong>Enter</strong>".</span>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Ex: "<s=
+trong>cd "C:\Users\Administrator\Desktop\LGPO_30"</strong>"</span></li>
+</ol></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Type in=
+ "<strong>lgpo.exe /g [Directory Path for the Extracted Pre-Hardened GPO Fo=
+lder]</strong>", and then Press "<strong>Enter</strong>".</span>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Ex: "<s=
+trong>lgpo.exe /g "C:\Users\Administrator\Desktop\{5FB0CED9-04FD-4FD7-A421-=
+94AF7943F509}"</strong>"</span>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">The "<s=
+trong>/g</strong>" option imports settings from one or more Group Policy ba=
+ckups.</span>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">This op=
+tion can be used to import Registry Policy (<strong>registry.pol</strong>),=
+ Security Templates (<strong>GptTmpl.inf</strong>), Advanced Auditing Backu=
+ps (<strong>audit.csv</strong>), and <strong>backup.xml</strong> Files.</sp=
+an></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">This op=
+tion imports only into System-Wide Settings and Does Not Support Configurin=
+g MLGPO.</span></li>
+</ol></li>
+</ol></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">If Done=
+ Correctly, you Should See an Output that Looks like this: "<strong>Registe=
+ring Machine CSE: Unknown GP Extension... SECEDIT.EXE exited with exit code=
+ 1</strong>"</span>
+<ol>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">"<stron=
+g>exit code 1</strong>" Refers to the LGPO Import being Unable to Map the "=
+<strong>Auditors</strong>" Group, from the GPO Import, to the Local "<stron=
+g>Auditors</strong>" Group that you have configured.</span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Instead=
+ of it Saying "<strong>Auditors</strong>", in the "<strong>Advanced Securit=
+y Settings</strong>" for a Given Folder, for some instances, it will Appear=
+ something like: "<strong>Account Unknown(S-1-5-21-2682050080-....)</strong=
+>"</span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>IMPORTANT:</strong> The Sections "<strong>Changing Folder Permissions</str=
+ong>" and "<strong>What's Left?</strong>", will Address and Fix the "<stron=
+g>exit code 1</strong>" Error.</span></li>
+</ol></li>
+</ol></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">This co=
+ncludes the Import Section for LGPOs, the Sections "<strong>Changing Folder=
+ Permissions</strong>" and "<strong>What's Left?</strong>", will Address an=
+d Fix the "<strong>exit code 1</strong>" Error.</span></li>
+</ol>
+<h2 id=3D"StandaloneGPOBackup&amp;ImportGuide/Documentation-ChangingFolderP=
+ermissions"><span style=3D"color: rgb(0,0,0);"><strong>Changing Folder Perm=
+issions</strong></span></h2>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);"><strong>For Each Folder Below:</stro=
+ng> Right Click the Folder (if applicable), Click on <strong>Properties -&g=
+t; Security -&gt; Advanced -&gt; </strong>Double Click "<strong>Account Unk=
+nown</strong>" (Or "<strong>S-1-5-21-2682050080-....</strong>") <strong>-&g=
+t;</strong> Click "</span><strong><span style=3D"color: rgb(51,102,255);">S=
+elect a principle</span></strong><span style=3D"color: rgb(0,0,0);">" <stro=
+ng>-&gt;</strong> In the "</span><strong><span style=3D"color: rgb(0,0,0);"=
+>Enter the object name to select (</span><u><span style=3D"color: rgb(51,10=
+2,255);">examples</span></u><span style=3D"color: rgb(0,0,0);">):</span></s=
+trong><span style=3D"color: rgb(0,0,0);">" Field, Input the Name of your "<=
+strong>Auditors</strong>" Group <strong>-&gt;</strong> Press the "<strong>E=
+nter</strong>" Key <strong>-&gt;</strong> Click "<strong>OK</strong>" <stro=
+ng>-&gt; </strong>Check the Box that Says, "<strong>Replace all child objec=
+t permission entries with inheritable permission entries from this object</=
+strong>" <strong>-&gt;</strong> Click "<strong>Apply</strong>" <strong>-&gt=
+;</strong> for the "<strong>Windows Security</strong>" Prompt, Click "<stro=
+ng>Yes</strong>" <strong>-&gt;</strong> Click "<strong>OK</strong>".</span>
+<ul>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>C:\Admin</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>C:\Audits</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>C:\endpoint_keys</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>C:\Ivanti_Deployment_Files</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>C:\LES_Deployment_Files</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>C:\Scripts</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>C:\Security</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>C:\Splunk</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>C:\SPLUNK_DB</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>C:\SplunkDB</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>D:\Admin</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>D:\Audit</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>D:\Audits</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>D:\Scripts</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>D:\Security</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>D:\Splunk</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>D:\Splunk_DB</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>D:\SplunkDB</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>E:\Admin</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>E:\Audit</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>E:\Audits</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>E:\Scripts</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>E:\Security</strong></span></li>
+</ul></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">For the=
+ Folder "<strong>C:\Windows\System32\winevt\Logs</strong>", You Must Manual=
+ly Change the Permissions</span>
+<ul>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Right C=
+lick the "<strong style=3D"letter-spacing: 0.0px;">C:\Windows\System32\wine=
+vt\Logs</strong><span style=3D"letter-spacing: 0.0px;">" Folder, </span>Cli=
+ck on <strong>Properties -&gt; Security -&gt; Advanced </strong></span></li=
+>
+<li><span style=3D"color: rgb(0,0,0);"><span style=3D"letter-spacing: 0.0px=
+;">Once you are in the "<strong>Advanced Security Settings for Logs</strong=
+>" Window, Click on the "<strong>Add</strong>" Button, </span>"</span><stro=
+ng style=3D"letter-spacing: 0.0px;"><span style=3D"color: rgb(51,102,255);"=
+>Select a principle</span></strong><span style=3D"letter-spacing: 0.0px;col=
+or: rgb(0,0,0);">",</span><span style=3D"letter-spacing: 0.0px;">&nbsp;In t=
+he "</span><strong style=3D"letter-spacing: 0.0px;">Enter the object name t=
+o select (<u><span style=3D"color: rgb(51,102,255);">examples</span></u>):<=
+/strong><span style=3D"letter-spacing: 0.0px;">" Field, Input the Name of y=
+our "</span><strong style=3D"letter-spacing: 0.0px;">Auditors</strong><span=
+ style=3D"letter-spacing: 0.0px;">" Group, and </span><span style=3D"letter=
+-spacing: 0.0px;">Press the "</span><strong style=3D"letter-spacing: 0.0px;=
+">Enter</strong><span style=3D"letter-spacing: 0.0px;">" Key</span></li>
+<li><span style=3D"letter-spacing: 0.0px;">Make Sure "<strong>Type:</strong=
+>" is Set to "<strong>Allow</strong>", <span>"<strong>Applies to:</strong>"=
+ is Set to "<strong>This folder, subfolders and files</strong>", and Under =
+"<strong>Basic permissions:</strong>" Check the Box that Says "<strong>Full=
+ control</strong>", and Click "<strong>OK</strong>".</span></span></li>
+<li><span style=3D"letter-spacing: 0.0px;"><span>Under the "<strong>Permiss=
+ion entries:</strong>" Section Double Click ""<strong>Administrators</stron=
+g>", </span></span><span>Make Sure "<strong>Type:</strong>" is Set to "<str=
+ong>Allow</strong>", <span>"<strong>Applies to:</strong>" is Set to "<stron=
+g>Subfolders and files only</strong>", and Under "<strong>Basic permissions=
+:</strong>" Un-Check all the Boxes, then Check the Box that Says "<strong>R=
+ead &amp; execute</strong>", and Click "<strong>OK</strong>".</span></span>=
+</li>
+<li>Check the Box that Says, "<strong>Replace all child object permission e=
+ntries with inheritable permission entries from this object</strong>", Clic=
+k "<strong>Apply</strong>", for the Two "<strong>Windows Security</strong>"=
+ Prompts Click "<strong>Yes</strong>", and then Click "<strong>OK</strong>"=
+.</li>
+</ul></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Congrat=
+ulations! You have Successfully Imported and Configured Pre-Hardened GPOs! =
+Make Sure to Check the "<strong>What's Left</strong>" Section, to See if th=
+ere are any Files that you, or the GPO Import, may have Missed.</span></li>
+</ul>
+<h2 id=3D"StandaloneGPOBackup&amp;ImportGuide/Documentation-What'sLeft?"><s=
+pan style=3D"color: rgb(0,0,0);"><strong>What's Left?</strong></span></h2>
+<p><span style=3D"color: rgb(0,0,0);">This GPO Import will Add Auditing Per=
+missions to the Following Folders if they are Already Created. Some may eve=
+n Modify Access Permissions, see the Section Above "<strong>Changing Folder=
+ Permissions</strong>" to see which Folders Require Manual Modification. Ad=
+ditionally, you can Double-Check the Permissions for the Folders Listed Bel=
+ow, to See if there are any Files that you, or the GPO Import, may have Mis=
+sed.</span></p>
+<ul>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%AllUsersProfile%\Symantec</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%AllUsersProfile%\Symantec Antivirus</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%AllUsersProfile%\Symantec Shared</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%AllUsersProfile%\SymEFASI</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%ProgramFiles%\Common Files\Symantec Shared</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%ProgramFiles%\Ivanti</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%ProgramFiles%\Lumension</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%ProgramFiles%\Putty</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%ProgramFiles%\Splunk</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%ProgramFiles%\SplunkUniversalForwarder</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%ProgramFiles%\Symantec</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%ProgramFiles%\Symantec Antivirus</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%ProgramFiles%\Symantec Endpoint Protection</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%ProgramFiles%\Symantec Endpoint Protection Manager</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%ProgramFiles%\Tenable</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%ProgramFiles(x86)%\Common Files\Symantec Shared</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%ProgramFiles(x86)%\Ivanti</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%ProgramFiles(x86)%\Lumension</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%ProgramFiles(x86)%\Putty</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%ProgramFiles(x86)%\Splunk</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%ProgramFiles(x86)%\SplunkUniversalForwarder</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%ProgramFiles(x86)%\Symantec</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%ProgramFiles(x86)%\Symantec Antivirus</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%ProgramFiles(x86)%\Symantec Endpoint Protection</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%ProgramFiles(x86)%\Symantec Endpoint Protection Manager</strong></span></=
+li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%ProgramFiles(x86)%\Tenable</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%SystemDrive%\Admin</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%SystemDrive%\Audits</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%SystemDrive%\endpoint_keys</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%SystemDrive%\Ivanti_Deployment_Files</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%SystemDrive%\LES_Deployment_Files</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%SystemDrive%\Scripts</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%SystemDrive%\Security</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%SystemDrive%\Splunk</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%SystemDrive%\SPLUNK_DB</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%SystemDrive%\SplunkDB</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%SystemRoot%\System32</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%SystemRoot%\SysWow64</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>%Windir%\regedit.exe</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>D:\Admin</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>D:\Audit</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>D:\Audits</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>D:\Scripts</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>D:\Security</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>D:\Splunk</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>D:\Splunk_DB</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>D:\SplunkDB</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>E:\Admin</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>E:\Audit</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>E:\Audits</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>E:\Scripts</strong></span></li>
+<li style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><strong=
+>E:\Security</strong></span></li>
+</ul>
+<p><br></p>
+</div>
+</section>
+</div>
+</div>
+</div>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_951_1722632533.1715113776301--
