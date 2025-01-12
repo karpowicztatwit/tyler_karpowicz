@@ -49,6 +49,7 @@ end
 2.  This is an ordered list following a header.
 3.  This is an ordered list following a header.
 
+
 ###### Confluence Guides & Documentations (Created at Raytheon BBN Technologies)
 
 | File Name        | Script Overview          | Source Code |
@@ -58,15 +59,15 @@ end
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
 
+
 ###### PowerShell Scripts (Created for Personal Use)
 
 | File Name        | Script Overview          | Source Code |
 |:-------------|:------------------|:------|
-| HourlyFolderBackup.ps1           | Hourly Folder Backup (Formatted Subpage) | HourlyFolderBackup.ps1 (Link to Script in Repo)  |
+| HourlyFolderBackup.ps1 | Hourly Folder Backup (Formatted Subpage) | [HourlyFolderBackup.ps1](Cybersecurity_Projects/Personal PowerShell Scripts/HourlyFolderBackup.ps1) |
 | out of stock | good and plenty   | nice  |
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
-
 
 ###### PowerShell Scripts (Created at Raytheon BBN Technologies)
 
@@ -76,6 +77,7 @@ end
 | out of stock | good and plenty   | nice  |
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
+
 
 ###### Header 6
 
@@ -128,7 +130,7 @@ end
 
 **Project Contributors:** Tyler Karpowicz, Sebastian Rosario, Lawrence Scola, Mario Gergis
 
-[Feedback Forward's GitHub Repository](https://github.com/sebastianrosario/FeedbackForward).
+[Feedback Forward's GitHub Repository](https://github.com/sebastianrosario/FeedbackForward)
 
 <!--Offical Detailed Poster-->
 ![Branching](Cybersecurity_Projects/Feedback-Forward/Feedback-Foward-Poster-3ft-x-2ft-v2.jpg)
