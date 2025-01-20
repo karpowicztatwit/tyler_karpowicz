@@ -65,18 +65,14 @@ end
 | File Name        | Script Overview          | Source Code |
 |:-------------|:------------------|:------|
 | HourlyFolderBackup.ps1 | Hourly Folder Backup (Formatted Subpage) | [HourlyFolderBackup.ps1](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Cybersecurity_Projects/Personal%20PowerShell%20Scripts/HourlyFolderBackup.ps1) |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
 
 ###### PowerShell Scripts (Created at Raytheon BBN Technologies)
 
 | File Name        | Script Overview          | Source Code |
 |:-------------|:------------------|:------|
-| HourlyFolderBackup.ps1           | Hourly Folder Backup (Formatted Subpage) | HourlyFolderBackup.ps1 (Link to Script in Repo)  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+| WindowsADScrape.ps1 | Scrapes the Windows OS Versions of AD Users & Outputs a Detailed List | [WindowsADScrape.ps1](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/PowerShell%20Scripts/WindowsADScrape.ps1)  |
+| CreateFileStructure.ps1 | Inititalizes Directory Strucutre for Secure Systems | [CreateFileStructure.ps1](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/PowerShell%20Scripts/CreateFileStructure.ps1) |
+| "[Collection]" PowerShell 7 Guide & Documentation Scripts | good `oreos`      | hmm   |
 
 
 ###### Header 6
