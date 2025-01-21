@@ -69,6 +69,11 @@ end
 2.  This is an ordered list following a header.
 3.  This is an ordered list following a header.
 -->
+## Certifications
+*   CompTIA Security+ ce Certification
+*   PowerShell 7 Essential Training
+
+
 ## Guides & Documentations
 
 ###### Confluence Guides & Documentations (Created at Raytheon BBN Technologies)
@@ -87,6 +92,7 @@ end
 | File Name        | Script Overview          | Source Code |
 |:-------------|:------------------|:------|
 | HourlyFolderBackup.ps1 | Hourly Folder Backup (Formatted Subpage) | [HourlyFolderBackup.ps1](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Cybersecurity_Projects/Personal%20PowerShell%20Scripts/HourlyFolderBackup.ps1) |
+
 
 ###### PowerShell Scripts (Created at Raytheon BBN Technologies)
 
@@ -144,6 +150,7 @@ end
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 -->
+
 ## Projects: Cybersecurity, Computer Networking, and Computer Science
 ### Feedback Forward - A Social Media Platform for Aspiring Individuals
 
@@ -161,6 +168,7 @@ Worked alongside three fellow students to create a website locally hosted on a w
 
 ### Creating A Virtual Enterprise - A Virtual Environment Resembling the Computing, Network & Access Control Infrastructure of a Business
 <!--Insert Project Contents Here-->
+
 
 ## Resume & Contact Information
 <dl>
