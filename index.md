@@ -169,7 +169,7 @@ Worked alongside three fellow students to create a website locally hosted on a w
 
 <!--![Branching](Resume/Tyler_Karpowicz's_Resume.pdf)-->
 <!--<iframe src="Resume/Tyler_Karpowicz's_Resume.pdf" width="800" height="600"></iframe>-->
-<embed src="Resume/Tyler_Karpowicz's_Resume.pdf" width="850px" height="1000px"/>
+<embed src="Resume/Tyler_Karpowicz's_Resume.pdf" width="850px" height="1100px"/>
 
 ### Definition lists can be used with HTML syntax.
 
