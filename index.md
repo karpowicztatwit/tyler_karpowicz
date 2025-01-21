@@ -167,7 +167,9 @@ Worked alongside three fellow students to create a website locally hosted on a w
 <dd>Sayville, New York, USA</dd>
 </dl>
 
-![Branching](Resume/Tyler_Karpowicz's_Resume.pdf)
+<!--![Branching](Resume/Tyler_Karpowicz's_Resume.pdf)-->
+<!--<iframe src="Resume/Tyler_Karpowicz's_Resume.pdf" width="800" height="600"></iframe>-->
+<embed src="Resume/Tyler_Karpowicz's_Resume.pdf" width="800px" height="2100px"/>
 
 ### Definition lists can be used with HTML syntax.
 
