@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<!--
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
 [Link to another page](./another-page.html).
@@ -13,7 +13,7 @@ There should be whitespace between paragraphs. We recommend including a README, 
 # Header 1
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
+-->
 ## Table of Contents
 * * *
 - Confluence Guides & Documentations
@@ -27,6 +27,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
   - Creating A Virtual Enterprise - A Virtual Environment Resembling the Computing, Network & Access Control Infrastructure of a Business
 - Resume & Contact Information
 
+<!--
 ## Header 2
 
 > This is a blockquote following a header.
@@ -61,7 +62,7 @@ end
 1.  This is an ordered list following a header.
 2.  This is an ordered list following a header.
 3.  This is an ordered list following a header.
-
+-->
 ## Guides & Documentations
 
 ###### Confluence Guides & Documentations (Created at Raytheon BBN Technologies)
@@ -89,8 +90,7 @@ end
 | CreateFileStructure.ps1 | Inititalizes Directory Strucutre for Secure Systems | [CreateFileStructure.ps1](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/PowerShell%20Scripts/CreateFileStructure.ps1) |
 | [Collection] PowerShell 7 Guide & Documentation Scripts | good `oreos`      | hmm   |
 
-
-###### Header 6
+###### PowerShell 7 Guide & Documentation Scripts
 
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
@@ -99,6 +99,7 @@ end
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
 
+<!--
 ### There's a horizontal rule below this.
 
 * * *
@@ -136,7 +137,7 @@ end
 ### Small image
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
+-->
 ## Projects: Cybersecurity, Computer Networking, and Computer Science
 ### Feedback Forward - A Social Media Platform for Aspiring Individuals
 
@@ -156,32 +157,21 @@ Worked alongside three fellow students to create a website locally hosted on a w
 <!--Insert Project Contents Here-->
 
 ## Resume & Contact Information
-<dl><dt>Name</dt>
+<dl>
+<dt>Name</dt>
 <dd>Tyler James Karpowicz</dd>
 <dt>Email</dt>
 <dd>tkarpbusiness@gmail.com</dd>
 <dt>Phone Number</dt>
 <dd>+1 (631) 432-4019</dd>
 <dt>Location</dt>
-<dd>Sayville, New York, USA</dd></dl>
+<dd>Sayville, New York, USA</dd>
+</dl>
 
 <!--![Branching](Resume/Tyler_Karpowicz's_Resume.pdf)-->
 <!--<iframe src="Resume/Tyler_Karpowicz's_Resume.pdf" width="800" height="600"></iframe>-->
 <embed src="Resume/Tyler_Karpowicz's_Resume.pdf" width="850px" height="1100px"/>
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
+<!--
 ```
 Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
 ```
@@ -189,3 +179,4 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 The final element.
 ```
+-->
