@@ -16,7 +16,6 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 ## Table of Contents
 * * *
-
 - Confluence Guides & Documentations
   - Confluence Guides & Documentations (Created at Raytheon BBN Technologies)
 - PowerShell Scripts
@@ -75,7 +74,6 @@ end
 | ok           | good `zoute` drop | yumm  |
 
 ## PowerShell Scripts
-
 <!--| HourlyFolderBackup.ps1 | Hourly Folder Backup (Formatted Subpage) | [HourlyFolderBackup.ps1](./Cybersecurity_Projects/Personal PowerShell Scripts/HourlyFolderBackup.ps1) |-->
 ###### PowerShell Scripts (Created for Personal Use)
 
@@ -139,6 +137,7 @@ end
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
+## Projects: Cybersecurity, Computer Networking, and Computer Science
 ### Feedback Forward - A Social Media Platform for Aspiring Individuals
 
 **Project Contributors:** Tyler Karpowicz, Sebastian Rosario, Lawrence Scola, Mario Gergis
@@ -154,6 +153,21 @@ Worked alongside three fellow students to create a website locally hosted on a w
 ![Branching](Cybersecurity_Projects/Feedback-Forward/Feedback-Foward-Poster-2ft-x-3ft.jpg)
 
 ### Creating A Virtual Enterprise - A Virtual Environment Resembling the Computing, Network & Access Control Infrastructure of a Business
+<!--Insert Project Contents Here-->
+
+## Resume & Contact Information
+<dl>
+<dt>Name</dt>
+<dd>Tyler James Karpowicz</dd>
+<dt>Email</dt>
+<dd>tkarpbusiness@gmail.com</dd>
+<dt>Phone Number</dt>
+<dd>+1 (631) 432-4019</dd>
+<dt>Location</dt>
+<dd>Sayville, New York, USA</dd>
+</dl>
+
+![Branching](Resume/Tyler_Karpowicz's_Resume.pdf)
 
 ### Definition lists can be used with HTML syntax.
 
