@@ -16,6 +16,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 -->
 <p style="text-align: center">Tyler James Karpowicz
 Sayville, NY | <a href="mailto:tkarpbusiness@gmail.com">tkarpbusiness@gmail.com</a> | (631) 432-4019
+
 LinkedIn: <a href="https://www.linkedin.com/in/tyler-karpowicz/">https://www.linkedin.com/in/tyler-karpowicz/</a></p>
 <!--LinkedIn: [https://www.linkedin.com/in/tyler-karpowicz/](https://www.linkedin.com/in/tyler-karpowicz/)-->
 
