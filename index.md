@@ -119,16 +119,23 @@ end
 |:-------------|:------------------|:------|
 | WindowsADScrape.ps1 | Scrapes Windows OS Versions of AD Users & Outputs a Detailed List | [WindowsADScrape.ps1](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/PowerShell%20Scripts/WindowsADScrape.ps1)  |
 | CreateFileStructure.ps1 | Inititalizes Directory Strucutre for Secure Systems | [CreateFileStructure.ps1](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/PowerShell%20Scripts/CreateFileStructure.ps1) |
-| [Collection] PowerShell 7 Guide & Documentation Scripts | good `oreos`      | hmm   |
+
 
 ###### PowerShell 7 Guide & Documentation Scripts
 
-| head1        | head two          | three |
+| File Name        | Script Overview          | Source Code |
 |:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
+| WindowsADScrape.ps1 | Scrapes Windows OS Versions of AD Users & Outputs a Detailed List | [WindowsADScrape.ps1](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/PowerShell%20Scripts/WindowsADScrape.ps1)  |
+| CreateFileStructure.ps1 | Inititalizes Directory Strucutre for Secure Systems | [CreateFileStructure.ps1](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/PowerShell%20Scripts/CreateFileStructure.ps1) |
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
+
+###### PowerShell 7 Guide & Documentation Scripts (Script Templates)
+
+| File Name        | Script Overview          | Source Code |
+|:-------------|:------------------|:------|
+| Template_for_Adding_Get-Help_Functionality_in_PSScript.ps1 | Template for Adding Custom Get-Help Functionality to your PowerShell Script | [Template_for_Adding_Get-Help_Functionality_in_PSScript.ps1](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/PowerShell%20Scripts/PowerShell%20Documentation%20-%20Additional%20Example%20Scripts/Script%20Templates/Template_for_Adding_Get-Help_Functionality_in_PSScript.ps1)  |
+| Template_for_calculating_run-time.ps1 | Template for Adding Script Runtime Calculation Functionality to your PowerShell Script | [Template_for_calculating_run-time.ps1](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/PowerShell%20Scripts/PowerShell%20Documentation%20-%20Additional%20Example%20Scripts/Script%20Templates/Template_for_calculating_run-time.ps1) |
 
 <!--
 ### There's a horizontal rule below this.
