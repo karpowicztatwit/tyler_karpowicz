@@ -14,6 +14,20 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
+### Table of Contents
+* * *
+
+- 1. Confluence Guides & Documentations
+  - 1a. Confluence Guides & Documentations (Created at Raytheon BBN Technologies)
+- 2. PowerShell Scripts
+  - 2a. PowerShell Scripts (Created for Personal Use)
+  - 2b. PowerShell Scripts (Created at Raytheon BBN Technologies)
+  - 2c. PowerShell Scripts (From PowerShell 7 Guide & Documentation)
+- 3. Projects: Cybersecurity, Computer Networking, and Computer Science
+  - 3a. Feedback Forward - A Social Media Platform for Aspiring Individuals
+  - 3a. Creating A Virtual Enterprise - A Virtual Environment Resembling the Computing, Network & Access Control Infrastructure of a Business
+- 4. Resume & Contact Information
+
 ## Header 2
 
 > This is a blockquote following a header.
@@ -49,6 +63,7 @@ end
 2.  This is an ordered list following a header.
 3.  This is an ordered list following a header.
 
+## Guides & Documentations
 
 ###### Confluence Guides & Documentations (Created at Raytheon BBN Technologies)
 
@@ -58,6 +73,8 @@ end
 | out of stock | good and plenty   | nice  |
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
+
+## PowerShell Scripts
 
 <!--| HourlyFolderBackup.ps1 | Hourly Folder Backup (Formatted Subpage) | [HourlyFolderBackup.ps1](./Cybersecurity_Projects/Personal PowerShell Scripts/HourlyFolderBackup.ps1) |-->
 ###### PowerShell Scripts (Created for Personal Use)
@@ -135,6 +152,8 @@ Worked alongside three fellow students to create a website locally hosted on a w
 
 <!--Unofficial Overview Poster-->
 ![Branching](Cybersecurity_Projects/Feedback-Forward/Feedback-Foward-Poster-2ft-x-3ft.jpg)
+
+### Creating A Virtual Enterprise - A Virtual Environment Resembling the Computing, Network & Access Control Infrastructure of a Business
 
 ### Definition lists can be used with HTML syntax.
 
