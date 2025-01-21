@@ -17,16 +17,16 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 ### Table of Contents
 * * *
 
-- I. Confluence Guides & Documentations
-  - Confluence Guides & Documentations (Created at Raytheon BBN Technologies)
-- II. PowerShell Scripts
-  - PowerShell Scripts (Created for Personal Use)
-  - PowerShell Scripts (Created at Raytheon BBN Technologies)
-  - PowerShell Scripts (From PowerShell 7 Guide & Documentation)
-- III. Projects: Cybersecurity, Computer Networking, and Computer Science
-  - Feedback Forward - A Social Media Platform for Aspiring Individuals
-  - Creating A Virtual Enterprise - A Virtual Environment Resembling the Computing, Network & Access Control Infrastructure of a Business
-- IV. Resume & Contact Information
+1. Confluence Guides & Documentations
+  1a. Confluence Guides & Documentations (Created at Raytheon BBN Technologies)
+2. PowerShell Scripts
+  2a. PowerShell Scripts (Created for Personal Use)
+  2b. PowerShell Scripts (Created at Raytheon BBN Technologies)
+  2c. PowerShell Scripts (From PowerShell 7 Guide & Documentation)
+3. Projects: Cybersecurity, Computer Networking, and Computer Science
+  3a. Feedback Forward - A Social Media Platform for Aspiring Individuals
+  3a. Creating A Virtual Enterprise - A Virtual Environment Resembling the Computing, Network & Access Control Infrastructure of a Business
+4. Resume & Contact Information
 
 ## Header 2
 
