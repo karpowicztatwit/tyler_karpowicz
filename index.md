@@ -19,6 +19,8 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 <p style="text-align: center">LinkedIn: <a href="https://www.linkedin.com/in/tyler-karpowicz/">https://www.linkedin.com/in/tyler-karpowicz/</a></p>
 <!--LinkedIn: [https://www.linkedin.com/in/tyler-karpowicz/](https://www.linkedin.com/in/tyler-karpowicz/)-->
 
+<!--Add Sections for Awards - Awards from Raytheon, Award from School-->
+<!--Add Sections for Intern Presentations - Presentations at Raytheon, Spring & Fall-->
 
 ## Table of Contents
 * * *
@@ -86,14 +88,15 @@ end
 | PowerShell 7 Essential Training | LinkedIn Learning | 09/19/2023 | N/A | [PowerShell_7_Essential_Training_Certificate_of_Completion_Tyler_Karpowicz.pdf](Raytheon_Portfolio/PowerShell_7_Essential_Training_Certificate_of_Completion_Tyler_Karpowicz.pdf) |
 
 
-## Guides & Documentations
+## Confluence Guides & Documentations
 
 ###### Confluence Guides & Documentations (Created at Raytheon BBN Technologies)
 
-| File Name        | Script Overview          | Source Code |
+| Documentation Name        | Documentation Summary          | Source Document (.pdf) |
 |:-------------|:------------------|:------|
-| HourlyFolderBackup.ps1 | Hourly Folder Backup (Formatted Subpage) | HourlyFolderBackup.ps1 (Link to Script in Repo)  |
-| out of stock | good and plenty   | nice  |
+| Evaluate-STIG Guide & Documentation | Information About, Installing, & Utilizing Evaluate-STIG | [Tyler Karpowicz's Home.pdf](Raytheon_Portfolio/Documentation - PDF Versions/Evaluate-STIG_Guide_&_Documentation.pdf) |
+| PowerShell 7 Guide & Documentation | Installing, Utilizing, & Creating Scripts in PowerShell | [Tyler Karpowicz's Home.pdf](Raytheon_Portfolio/Documentation - PDF Versions/Evaluate-STIG_Guide_&_Documentation.pdf) |
+| Tyler Karpowicz's Home | Organized Documentation of My Accomplishments At RTX BBN Technologies | [Tyler Karpowicz's Home.pdf](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Cybersecurity_Projects/Personal%20PowerShell%20Scripts/HourlyFolderBackup.ps1)  |
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
 
