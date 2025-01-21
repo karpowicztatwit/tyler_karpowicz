@@ -14,9 +14,9 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 -->
-<center>Tyler James Karpowicz</center>
-<center>Sayville, NY | <a href="mailto:tkarpbusiness@gmail.com">tkarpbusiness@gmail.com</a> | (631) 432-4019</center>
-<p style="text-align: center">LinkedIn: <a href="https://www.linkedin.com/in/tyler-karpowicz/">https://www.linkedin.com/in/tyler-karpowicz/</a></p>
+<p style="text-align: center">Tyler James Karpowicz
+Sayville, NY | <a href="mailto:tkarpbusiness@gmail.com">tkarpbusiness@gmail.com</a> | (631) 432-4019
+LinkedIn: <a href="https://www.linkedin.com/in/tyler-karpowicz/">https://www.linkedin.com/in/tyler-karpowicz/</a></p>
 <!--LinkedIn: [https://www.linkedin.com/in/tyler-karpowicz/](https://www.linkedin.com/in/tyler-karpowicz/)-->
 
 ## Table of Contents
