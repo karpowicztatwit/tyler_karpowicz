@@ -156,14 +156,16 @@ Worked alongside three fellow students to create a website locally hosted on a w
 <!--Insert Project Contents Here-->
 
 ## Resume & Contact Information
-<dl><dt>Name</dt>
+<dl>
+<dt>Name</dt>
 <dd>Tyler James Karpowicz</dd>
 <dt>Email</dt>
 <dd>tkarpbusiness@gmail.com</dd>
 <dt>Phone Number</dt>
 <dd>+1 (631) 432-4019</dd>
 <dt>Location</dt>
-<dd>Sayville, New York, USA</dd></dl>
+<dd>Sayville, New York, USA</dd>
+</dl>
 
 <!--![Branching](Resume/Tyler_Karpowicz's_Resume.pdf)-->
 <!--<iframe src="Resume/Tyler_Karpowicz's_Resume.pdf" width="800" height="600"></iframe>-->
