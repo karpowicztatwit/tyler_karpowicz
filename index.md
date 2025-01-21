@@ -14,8 +14,14 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 -->
+<center>Tyler James Karpowicz</center>
+<center>Sayville, NY | tkarpbusiness@gmail.com | (631) 432-4019</center>
+
 ## Table of Contents
 * * *
+- Certifications
+  - CompTIA Security+ ce Certification
+  - PowerShell 7 Essential Training
 - Confluence Guides & Documentations
   - Confluence Guides & Documentations (Created at Raytheon BBN Technologies)
 - PowerShell Scripts
