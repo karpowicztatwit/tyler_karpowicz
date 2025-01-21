@@ -121,14 +121,15 @@ end
 | CreateFileStructure.ps1 | Inititalizes Directory Strucutre for Secure Systems | [CreateFileStructure.ps1](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/PowerShell%20Scripts/CreateFileStructure.ps1) |
 
 
-###### PowerShell 7 Guide & Documentation Scripts
+###### PowerShell 7 Guide & Documentation Scripts (Example Scripts)
 
 | File Name        | Script Overview          | Source Code |
 |:-------------|:------------------|:------|
-| WindowsADScrape.ps1 | Scrapes Windows OS Versions of AD Users & Outputs a Detailed List | [WindowsADScrape.ps1](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/PowerShell%20Scripts/WindowsADScrape.ps1)  |
-| CreateFileStructure.ps1 | Inititalizes Directory Strucutre for Secure Systems | [CreateFileStructure.ps1](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/PowerShell%20Scripts/CreateFileStructure.ps1) |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+| Common_Commands_Utilized_In_PowerShell_Scripting.ps1 | Example of Commonly Used PS Script Commands & Their Associated Outputs | [Common_Commands_Utilized_In_PowerShell_Scripting.ps1](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/PowerShell%20Scripts/PowerShell%20Documentation%20-%20Additional%20Example%20Scripts/Common_Commands_Utilized_In_PowerShell_Scripting.ps1) |
+| calculating_run-time.ps1 | Example of a PS Script Outputting its Run-Time Duration | [calculating_run-time.ps1](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/PowerShell%20Scripts/PowerShell%20Documentation%20-%20Additional%20Example%20Scripts/calculating_run-time.ps1) |
+| if_statements.ps1 | Examples of Different Types of "if" Statements in PS | [if_statements.ps1](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/PowerShell%20Scripts/PowerShell%20Documentation%20-%20Additional%20Example%20Scripts/if_statements.ps1) |
+| if_statements_with_Get-Help_functionality.ps1 | Examples of Different Types of "if" Statements in PS Incorporated with Get-Help Functionality | [if_statements_with_Get-Help_functionality.ps1](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/PowerShell%20Scripts/PowerShell%20Documentation%20-%20Additional%20Example%20Scripts/if_statements_with_Get-Help_functionality.ps1) |
+| loops.ps1 | Examples of Commonly Utilized Loops in PowerShell | [loops.ps1](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/PowerShell%20Scripts/PowerShell%20Documentation%20-%20Additional%20Example%20Scripts/loops.ps1) |
 
 ###### PowerShell 7 Guide & Documentation Scripts (Script Templates)
 
