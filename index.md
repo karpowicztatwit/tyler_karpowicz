@@ -27,12 +27,20 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 - Certifications
   - CompTIA Security+ ce Certification
   - PowerShell 7 Essential Training
+- Awards
+  - Certificate of Academic Excellence
+  - Achievement Award
+  - Spot Award
 - Confluence Guides & Documentations
   - Confluence Guides & Documentations (Created at Raytheon BBN Technologies)
+- Raytheon BBN Technologies Internship Final Presentations
+  - Spring 2023
+  - Fall 2023
 - PowerShell Scripts
   - PowerShell Scripts (Created for Personal Use)
   - PowerShell Scripts (Created at Raytheon BBN Technologies)
-  - PowerShell Scripts (From PowerShell 7 Guide & Documentation)
+  - PowerShell 7 Guide & Documentation Scripts (Example Scripts)
+  - PowerShell 7 Guide & Documentation Scripts (Script Templates)
 - Projects: Cybersecurity, Computer Networking, and Computer Science
   - Feedback Forward - A Social Media Platform for Aspiring Individuals
   - Creating A Virtual Enterprise - A Virtual Environment Resembling the Computing, Network & Access Control Infrastructure of a Business
@@ -212,8 +220,18 @@ Worked alongside three fellow students to create a website locally hosted on a w
 <!--Unofficial Overview Poster-->
 ![Branching](Cybersecurity_Projects/Feedback-Forward/Feedback-Foward-Poster-2ft-x-3ft.jpg)
 
+
 ### Creating A Virtual Enterprise - A Virtual Environment Resembling the Computing, Network & Access Control Infrastructure of a Business
 <!--Insert Project Contents Here-->
+**Project Contributors:** Tyler Karpowicz, Yongshi Xu
+
+Worked with Yongshi Xu to create a virtual environment resembling the computing, networking and access control infrastructure for a virtual enterprise. This project models how a Systems Administrator would set up and manage these infrastructures for a business in the real world. In our virtual enterprise, we established three departments: management, sales, and accounting, with employees in each department. Using VMware and three Kali Linux operating systems, alongside multiple user accounts and groups, this project establishes the IT infrastructure for a company with three departments. It enables employees to communicate within their respective departments and access the files they need, while simultaneously preventing access to files that are outside the scope of their departments and work.
+
+#### Project Proposal Presentation
+![Branching](Cybersecurity_Projects/Creating_A_Virtual_Enterprise/Prj-Prpsl-Tyler_Karpowicz-Yongshi_Xu.pptx)
+
+#### Project Report
+![Branching](Cybersecurity_Projects/Creating_A_Virtual_Enterprise/Prj-Rpt-Tyler-Yongshi.docx)
 
 
 ## Resume & Contact Information
