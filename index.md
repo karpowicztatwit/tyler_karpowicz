@@ -20,7 +20,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 <!--LinkedIn: [https://www.linkedin.com/in/tyler-karpowicz/](https://www.linkedin.com/in/tyler-karpowicz/)-->
 
 <!--Add Sections for Awards - Awards from Raytheon, Award from School-->
-<!--Add Sections for Intern Presentations - Presentations at Raytheon, Spring & Fall-->
+<!--Add Sections for Intern Presentations - Presentations at Raytheon, Spring & Fall - https://docs.google.com/presentation/d/1zD__e_UFKDRUq2YKNMfEdhfiic3e5Fq_/edit#slide=id.p1 -->
 
 ## Table of Contents
 * * *
@@ -87,6 +87,16 @@ end
 | CompTIA Security+ ce Certification | CompTIA | 12/30/2024 | 12/30/2027 | [Credly - CompTIA Security+ ce Certification](https://www.credly.com/badges/589423cc-0d28-4960-9c83-313aba3a5676/linked_in_profile)  |
 | PowerShell 7 Essential Training | LinkedIn Learning | 09/19/2023 | N/A | [PowerShell_7_Essential_Training_Certificate_of_Completion_Tyler_Karpowicz.pdf](Raytheon_Portfolio/PowerShell_7_Essential_Training_Certificate_of_Completion_Tyler_Karpowicz.pdf) |
 
+## Awards
+
+###### Academic Excellence & Career Innovation Awards
+
+| Award Name | Award Organization | Award Summary | Date Obtained | Award Image |
+|:-------------|:------------------|:------|:------|:------|
+| CompTIA Security+ ce Certification | CompTIA | 12/30/2024 | 12/30/2027 | [Credly - CompTIA Security+ ce Certification](https://www.credly.com/badges/589423cc-0d28-4960-9c83-313aba3a5676/linked_in_profile)  |
+| PowerShell 7 Essential Training | LinkedIn Learning | 09/19/2023 | N/A | [PowerShell_7_Essential_Training_Certificate_of_Completion_Tyler_Karpowicz.pdf](Raytheon_Portfolio/PowerShell_7_Essential_Training_Certificate_of_Completion_Tyler_Karpowicz.pdf) |
+| PowerShell 7 Essential Training | LinkedIn Learning | 09/19/2023 | N/A | [PowerShell_7_Essential_Training_Certificate_of_Completion_Tyler_Karpowicz.pdf](Raytheon_Portfolio/PowerShell_7_Essential_Training_Certificate_of_Completion_Tyler_Karpowicz.pdf) |
+
 
 ## Confluence Guides & Documentations
 
@@ -104,6 +114,13 @@ end
 | How to Setup A Local Imaging Server | How to Setup & Configure a Local Imaging Server | [How to Setup A Local Imaging Server - WIP.pdf](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/Documentation%20-%20PDF%20Versions/How%20to%20Setup%20A%20Local%20Imaging%20Server%20-%20WIP.pdf)  |
 | Tenable Nessus Guide & Documentation | How to Setup & Configure Tenable Nessus for a Standalone Device | [Tenable Nessus Guide & Documentation - WIP.pdf](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/Documentation%20-%20PDF%20Versions/Tenable%20Nessus%20Guide%20%26%20Documentation%20-%20WIP.pdf)  |
 
+###### Raytheon BBN Technologies Internship Final Presentations
+
+| Presentation Name | CO-OP Semester | Source Document (.pptx) |
+|:-------------|:------------------|:------|
+| Tyler Karpowicz - Co-Op Presentation - Spring 2023 | Spring 2023 | [Tyler Karpowicz - Co-Op Presentation - Spring 2023 - Redacted Version.pptx](https://docs.google.com/presentation/d/1XTvpX-9w-q2mKggXb2uLw7lXzpm1YRIM/edit#slide=id.p1) |
+| Tyler Karpowicz - Co-Op Presentation - Fall 2023 | Fall 2023 | [Tyler Karpowicz - Co-Op Presentation - Spring 2023 - Redacted Version.pptx](https://docs.google.com/presentation/d/1zD__e_UFKDRUq2YKNMfEdhfiic3e5Fq_/edit#slide=id.p1) |
+
 ## PowerShell Scripts
 <!--| HourlyFolderBackup.ps1 | Hourly Folder Backup (Formatted Subpage) | [HourlyFolderBackup.ps1](./Cybersecurity_Projects/Personal PowerShell Scripts/HourlyFolderBackup.ps1) |-->
 ###### PowerShell Scripts (Created for Personal Use)
@@ -117,7 +134,7 @@ end
 
 | File Name        | Script Overview          | Source Code |
 |:-------------|:------------------|:------|
-| WindowsADScrape.ps1 | Scrapes Windows OS Versions of AD Users & Outputs a Detailed List | [WindowsADScrape.ps1](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/PowerShell%20Scripts/WindowsADScrape.ps1)  |
+| WindowsADScrape.ps1 | Scrapes Windows OS Versions of AD Users & Outputs a Detailed List | [WindowsADScrape.ps1](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/PowerShell%20Scripts/WindowsADScrape.ps1) |
 | CreateFileStructure.ps1 | Inititalizes Directory Strucutre for Secure Systems | [CreateFileStructure.ps1](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/PowerShell%20Scripts/CreateFileStructure.ps1) |
 
 
