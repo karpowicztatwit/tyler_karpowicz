@@ -104,7 +104,7 @@ end
 
 | Documentation Name        | Documentation Summary          | Source Document (.pdf) |
 |:-------------|:------------------|:------|
-| Evaluate-STIG Guide & Documentation | Information About, Installing, & Utilizing Evaluate-STIG | [Evaluate-STIG_Guide_&_Documentation.pdf](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/Documentation%20-%20PDF%20Versions/Evaluate-STIG_Guide_%26_Documentation.pdf) |
+| Evaluate-STIG Guide & Documentation | Information About, Installing, & Utilizing Evaluate-STIG | [Evaluate-STIG_Guide_& Documentation.pdf](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/Documentation%20-%20PDF%20Versions/Evaluate-STIG_Guide_%26_Documentation.pdf) |
 | PowerShell 7 Guide & Documentation | Installing, Utilizing, & Creating Scripts in PowerShell | [PowerShell 7 Guide & Documentation - Tyler Karpowicz.pdf](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/Documentation%20-%20PDF%20Versions/PowerShell%207%20Guide%20%26%20Documentation%20-%20Tyler%20Karpowicz.pdf) |
 | Tyler Karpowicz's Home | Organized Documentation of My Accomplishments at RTX BBN Technologies | [Tyler Karpowicz's Home.pdf](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/Documentation%20-%20PDF%20Versions/Tyler%20Karpowicz%E2%80%99s%20Home.pdf)  |
 | How to Install PowerShell 7 on Red Hat Enterprise Linux (RHEL) | Installing PowerShell 7 on a Standalone RHEL Device | [How to Install PowerShell 7 on Red Hat Enterprise Linux (RHEL).pdf](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/Documentation%20-%20PDF%20Versions/How%20to%20Install%20PowerShell%207%20on%20Red%20Hat%20Enterprise%20Linux%20(RHEL).pdf)  |
