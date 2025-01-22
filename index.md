@@ -231,7 +231,7 @@ Worked with Yongshi Xu to create a virtual environment resembling the computing,
 ![Branching](Cybersecurity_Projects/Creating_A_Virtual_Enterprise/Prj-Prpsl-Tyler_Karpowicz-Yongshi_Xu.pptx)
 
 #### Project Report
-![Branching](Cybersecurity_Projects/Creating_A_Virtual_Enterprise/Prj-Rpt-Tyler-Yongshi.docx)
+<embed src="Cybersecurity_Projects/Creating_A_Virtual_Enterprise/Prj-Rpt-Tyler-Yongshi.docx" width="850px" height="1100px"/>
 
 
 ## Resume & Contact Information
