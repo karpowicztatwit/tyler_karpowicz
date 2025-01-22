@@ -82,7 +82,7 @@ end
 
 ###### Certifications
 
-| Certification Name        | Certification Organization        | Date Obtained      | Expiration Date      | Verification Link/Image |
+| Certification Name | Certification Organization | Date Obtained | Expiration Date | Verification Link/Image |
 |:-------------|:------------------|:------|:------|:------|
 | CompTIA Security+ ce Certification | CompTIA | 12/30/2024 | 12/30/2027 | [Credly - CompTIA Security+ ce Certification](https://www.credly.com/badges/589423cc-0d28-4960-9c83-313aba3a5676/linked_in_profile)  |
 | PowerShell 7 Essential Training | LinkedIn Learning | 9/19/2023 | N/A | [PowerShell_7_Essential_Training_Certificate_of_Completion_Tyler_Karpowicz.pdf](Raytheon_Portfolio/PowerShell_7_Essential_Training_Certificate_of_Completion_Tyler_Karpowicz.pdf) |
