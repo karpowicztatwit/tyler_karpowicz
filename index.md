@@ -228,10 +228,10 @@ Worked alongside three fellow students to create a website locally hosted on a w
 Worked with Yongshi Xu to create a virtual environment resembling the computing, networking and access control infrastructure for a virtual enterprise. This project models how a Systems Administrator would set up and manage these infrastructures for a business in the real world. In our virtual enterprise, we established three departments: management, sales, and accounting, with employees in each department. Using VMware and three Kali Linux operating systems, alongside multiple user accounts and groups, this project establishes the IT infrastructure for a company with three departments. It enables employees to communicate within their respective departments and access the files they need, while simultaneously preventing access to files that are outside the scope of their departments and work.
 
 #### Project Proposal Presentation
-<embed src="Cybersecurity_Projects/Creating_A_Virtual_Enterprise/Prj-Prpsl-Tyler_Karpowicz-Yongshi_Xu.pptx" width="850px" height="600px"/>
+<embed src="Cybersecurity_Projects/Creating_A_Virtual_Enterprise/Prj-Prpsl-Tyler_Karpowicz-Yongshi_Xu.pdf" width="850px" height="600px"/>
 
 #### Project Report
-<embed src="Cybersecurity_Projects/Creating_A_Virtual_Enterprise/Prj-Rpt-Tyler-Yongshi.docx" width="850px" height="1100px"/>
+<embed src="Cybersecurity_Projects/Creating_A_Virtual_Enterprise/Prj-Rpt-Tyler-Yongshi.pdf" width="850px" height="1100px"/>
 
 
 ## Resume & Contact Information
