@@ -85,7 +85,7 @@ end
 | Certification Name        | Certification Organization        | Date Obtained      | Expiration Date      | Verification Link/Image |
 |:-------------|:------------------|:------|:------|:------|
 | CompTIA Security+ ce Certification | CompTIA | 12/30/2024 | 12/30/2027 | [Credly - CompTIA Security+ ce Certification](https://www.credly.com/badges/589423cc-0d28-4960-9c83-313aba3a5676/linked_in_profile)  |
-| PowerShell 7 Essential Training | LinkedIn Learning | 09/19/2023 | N/A | [PowerShell_7_Essential_Training_Certificate_of_Completion_Tyler_Karpowicz.pdf](Raytheon_Portfolio/PowerShell_7_Essential_Training_Certificate_of_Completion_Tyler_Karpowicz.pdf) |
+| PowerShell 7 Essential Training | LinkedIn Learning | 9/19/2023 | N/A | [PowerShell_7_Essential_Training_Certificate_of_Completion_Tyler_Karpowicz.pdf](Raytheon_Portfolio/PowerShell_7_Essential_Training_Certificate_of_Completion_Tyler_Karpowicz.pdf) |
 
 ## Awards
 
@@ -93,9 +93,9 @@ end
 
 | Award Name | Award Organization | Award Summary | Date Obtained | Award Image |
 |:-------------|:------------------|:------|:------|:------|
-| CompTIA Security+ ce Certification | CompTIA | 12/30/2024 | 12/30/2027 | [Credly - CompTIA Security+ ce Certification](https://www.credly.com/badges/589423cc-0d28-4960-9c83-313aba3a5676/linked_in_profile)  |
-| PowerShell 7 Essential Training | LinkedIn Learning | 09/19/2023 | N/A | [PowerShell_7_Essential_Training_Certificate_of_Completion_Tyler_Karpowicz.pdf](Raytheon_Portfolio/PowerShell_7_Essential_Training_Certificate_of_Completion_Tyler_Karpowicz.pdf) |
-| PowerShell 7 Essential Training | LinkedIn Learning | 09/19/2023 | N/A | [PowerShell_7_Essential_Training_Certificate_of_Completion_Tyler_Karpowicz.pdf](Raytheon_Portfolio/PowerShell_7_Essential_Training_Certificate_of_Completion_Tyler_Karpowicz.pdf) |
+| Certificate of Academic Excellence - Bachelor of Science in Cybersecurity | Wentworth Institute of Technology | Recognition for Exceptional Performace & Dedication to Academic Pursuits | 9/8/2024 | [Credly - CompTIA Security+ ce Certification](https://www.credly.com/badges/589423cc-0d28-4960-9c83-313aba3a5676/linked_in_profile)  |
+| Raytheon Technologies - Achievement Award - Innovation | Raytheon Technologies | Recognition for Innovation & Work Ethic | 4/10/2023 | [PowerShell_7_Essential_Training_Certificate_of_Completion_Tyler_Karpowicz.pdf](Raytheon_Portfolio/PowerShell_7_Essential_Training_Certificate_of_Completion_Tyler_Karpowicz.pdf) |
+| RTX - Spot Award - Innovation | RTX | Recognition for Innovation & Work Ethic | 12/4/2023 | N/A - Export-Controlled Technical Information Strictly Prohibited |
 
 
 ## Confluence Guides & Documentations
