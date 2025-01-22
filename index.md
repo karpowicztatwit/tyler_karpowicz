@@ -93,7 +93,7 @@ end
 
 | Award Organization | Award Name | Award Subcategory | Award Recognition | Date Obtained | Award Image |
 |:-------------|:-------------|:------------------|:------|:------|:------|
-| Wentworth Institute of Technology - School of Computing & Data Science | Certificate of Academic Excellence | Bachelor of Science in Cybersecurity | Exceptional Performace & Dedication to Academic Pursuits | 9/8/2024 | [Certificate of Academic Excellence - Wentworth Institute of Technology - School of Computing & Data Science - Cybersecurity.jpg](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Wentworth_Institute_of_Technology/Certificate_of_Academic_Excellence_-_Wentworth_Institute_of%20Technology_-_School_of_Computing_&_Data_Science_-_Cybersecurity.jpg)  |
+| Wentworth Institute of Technology | Certificate of Academic Excellence | Bachelor of Science in Cybersecurity | Exceptional Performace & Dedication to Academic Pursuits | 9/8/2024 | [Certificate of Academic Excellence - WIT - School of Computing & Data Science - Cybersecurity.jpg](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Wentworth_Institute_of_Technology/Certificate_of_Academic_Excellence_-_Wentworth_Institute_of%20Technology_-_School_of_Computing_&_Data_Science_-_Cybersecurity.jpg)  |
 | Raytheon Technologies | Achievement Award | Innovation | Innovation & Work Ethic | 4/10/2023 | [Raytheon Technologies - Achievement Award - Tyler Karpowicz.pdf](https://github.com/karpowicztatwit/tyler_karpowicz/blob/main/Raytheon_Portfolio/Raytheon%20Technologies%20-%20Achievement%20Award%20-%20Tyler%20Karpowicz.pdf) |
 | RTX | Spot Award | Innovation | Innovation & Work Ethic | 12/4/2023 | N/A - Export-Controlled Technical Information Strictly Prohibited |
 
