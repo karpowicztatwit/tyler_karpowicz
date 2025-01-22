@@ -41,7 +41,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
   - PowerShell Scripts (Created at Raytheon BBN Technologies)
   - PowerShell 7 Guide & Documentation Scripts (Example Scripts)
   - PowerShell 7 Guide & Documentation Scripts (Script Templates)
-- Projects: Cybersecurity, Computer Networking, and Computer Science
+- Projects: Cybersecurity, Computer Networking, & Computer Science
   - Feedback Forward - A Social Media Platform for Aspiring Individuals
   - Creating A Virtual Enterprise - A Virtual Environment Resembling the Computing, Network & Access Control Infrastructure of a Business
 - Resume & Contact Information
@@ -205,7 +205,7 @@ end
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 -->
 
-## Projects: Cybersecurity, Computer Networking, and Computer Science
+## Projects: Cybersecurity, Computer Networking, & Computer Science
 ### Feedback Forward - A Social Media Platform for Aspiring Individuals
 
 **Project Contributors:** Tyler Karpowicz, Sebastian Rosario, Lawrence Scola, Mario Gergis
