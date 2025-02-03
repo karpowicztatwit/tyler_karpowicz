@@ -15,7 +15,7 @@ There should be whitespace between paragraphs. We recommend including a README, 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 -->
 <head>
-  <link rel="shortcut icon" type="x-icon" href="tk_cyber_icon.png">
+  <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
 </head>
 <p style="text-align: center">Tyler James Karpowicz</p>
 <p style="text-align: center">Sayville, NY | <a href="mailto:tkarpbusiness@gmail.com">tkarpbusiness@gmail.com</a> | (631) 432-4019</p>
