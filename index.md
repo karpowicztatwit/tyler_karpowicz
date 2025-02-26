@@ -47,6 +47,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 - Projects: Cybersecurity, Computer Networking, and Computer Science
   - Feedback Forward - A Social Media Platform for Aspiring Individuals
   - Creating A Virtual Enterprise - A Virtual Environment Resembling the Computing, Network & Access Control Infrastructure of a Business
+  - Developing An Oracle SQL Database for A Restaurant Company - Papa Pie's Italian Restaurant
 - Resume & Contact Information
 
 <!--
@@ -249,13 +250,15 @@ Worked with Yongshi Xu to create a virtual environment resembling the computing,
 
 Worked with Richard Walters to create an Oracle SQL Database for a sit-down, dine-in, Italian restaurant business, "Papa Pie's Italian Restaurant", a business that we conceptualized through our knowledge and experience of the food industry. Papa Pie’s Italian Restaurant will be a brand-new chain of Italian restaurants dedicated to providing only the finest Italian cuisine. It will have locations all over New England. Papa Pie’s Italian Restaurant requires many significant components to operate as a proper, successful business. As database engineers, we must keep track of and organize a variety of key business components. We must keep track of the products that each restaurant provides, facilities and equipment used in the business and manage employee and company finances. To keep track of what products each restaurant provides, we must group up the categories of products, as well as organize the subcategories that they belong in. This Oracle SQL Database, and its associated tables, encapsulates the various logistics and components that make up a restaurant business, from the various subgroups of menu items provided, to each location's food orders, facilities and equipment used throughout the business, managing employee and company finances, and expenses and gains throughout the various locations and core business overall. 
 
-The creation of a database for Papa Pie’s will help the company organize and easily spot flaws, or areas of concern, throughout the business. The database will also be looking at business operations, to see where the company can make changes, improve profits, and lower expenses overall. Furthermore, the database will look at business operations to see where Papa Pie’s can make specific business actions more simplistic, or potentially even automated with ease. Lastly, the database will look at similar competing businesses’ expenses, profits, and overall performance in the area, and how they compare to a given Papa Pie’s location. The database will prove to be most resourceful as a means of aiding the overall success of Papa Pie’s Italian Restaurant LLC.
-
 
 #### Project Report
 <embed src="Oracle SQL Databases Project - Papa Pies Italian Restaurant/database_project_document.pdf" width="850px" height="1100px"/>
 
-#### Database Screenshots
+
+The creation of a database for Papa Pie’s will help the company organize and easily spot flaws, or areas of concern, throughout the business. The database will also be looking at business operations, to see where the company can make changes, improve profits, and lower expenses overall. Furthermore, the database will look at business operations to see where Papa Pie’s can make specific business actions more simplistic, or potentially even automated with ease. Lastly, the database will look at similar competing businesses’ expenses, profits, and overall performance in the area, and how they compare to a given Papa Pie’s location. The database will prove to be most resourceful as a means of aiding the overall success of Papa Pie’s Italian Restaurant LLC.
+
+
+#### Database Project Screenshots
 [Project Database Screenshots](https://github.com/karpowicztatwit/tyler_karpowicz/tree/main/Oracle%20SQL%20Databases%20Project%20-%20Papa%20Pies%20Italian%20Restaurant/Screenshots)
 
 ![Branching](Oracle%20SQL%20Databases%20Project%20-%20Papa%20Pies%20Italian%20Restaurant/Screenshots/Screenshot%20(406).png)
