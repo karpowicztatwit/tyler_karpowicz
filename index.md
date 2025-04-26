@@ -18,7 +18,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
   <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
 </head>
 <p style="text-align: center">Tyler James Karpowicz</p>
-<p style="text-align: center">Sayville, NY | <a href="mailto:tkarpbusiness@gmail.com">tkarpbusiness@gmail.com</a> | (631) 432-4019</p>
+<p style="text-align: center">Sayville, NY | <a href="mailto:tkarpbusiness@gmail.com">tkarpbusiness@gmail.com</a></p>
 <p style="text-align: center">LinkedIn: <a href="https://www.linkedin.com/in/tyler-karpowicz/">https://www.linkedin.com/in/tyler-karpowicz/</a></p>
 <!--LinkedIn: [https://www.linkedin.com/in/tyler-karpowicz/](https://www.linkedin.com/in/tyler-karpowicz/)-->
 
