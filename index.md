@@ -280,6 +280,7 @@ The creation of a database for Papa Pie’s will help the company organize and e
 <dt>Location</dt>
 <dd>Sayville, New York, USA</dd>
 </dl>
+
 ![Branching](Resume/Tyler_Karpowicz_Resume_For_Portfolio.pdf)
 
 <!--![Branching](Resume/Tyler_Karpowicz's_Resume.pdf)-->
